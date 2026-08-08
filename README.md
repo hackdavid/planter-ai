@@ -46,8 +46,8 @@ Finds independent cafés and restaurants with bare frontages, captures a photo o
 ### 1. Clone & Install
 
 ```bash
-git clone <repo-url>
-cd planter
+git clone https://github.com/hackdavid/planter-ai.git
+cd planter-ai
 pip install -r requirements.txt
 ```
 
@@ -208,10 +208,21 @@ Images and the SQLite database live in the same `planter_app/data/` directory �
 
 Reviewers can test the pipeline instantly without API keys:
 ```bash
+# Health check (load-balancer / Kubernetes compatible)
+curl https://your-app.onrender.com/healthz
+
+# Zero-key demo
 curl https://your-app.onrender.com/api/demo
 ```
 
 Or open the landing page and click **Run Pipeline** with **Demo** mode selected.
+
+**Available endpoints:**
+- `GET /` — Landing page
+- `GET /health` and `GET /healthz` — Health checks (both root-level and under `/api`)
+- `GET /api/demo` — Pre-computed demo results, zero API keys
+- `POST /api/pipeline/run` — Full pipeline with multipart upload
+- `GET /docs` — Swagger UI
 
 **5. Run Live mode locally**
 

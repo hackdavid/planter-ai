@@ -149,6 +149,12 @@ def health_check() -> dict:
     return {"status": "ok", "service": "planter-prospecting"}
 
 
+@router.get("/healthz")
+def healthz_check() -> dict:
+    """Kubernetes-style health probe."""
+    return {"status": "ok", "service": "planter-prospecting"}
+
+
 @router.post("/pipeline/run", response_model=RunPipelineResponse)
 def run_pipeline(
     city: str = Form(default="London, UK"),

@@ -44,6 +44,18 @@ if gen_composites_dir.exists():
     app.mount("/composites_generative", StaticFiles(directory=str(gen_composites_dir)), name="composites_generative")
 
 
+@app.get("/health")
+def health_root():
+    """Root-level health check for load balancers."""
+    return {"status": "ok", "service": "planter-prospecting"}
+
+
+@app.get("/healthz")
+def healthz():
+    """Kubernetes-style health check probe."""
+    return {"status": "ok", "service": "planter-prospecting"}
+
+
 @app.get("/")
 def root():
     """Serve the frontend landing page."""
