@@ -1,0 +1,41 @@
+{
+  "place_id": "ChIJC1-8SAARdkgRka4Oz24YKME",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://brewsnviews.co.uk/",
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJC1-8SAARdkgRka4Oz24YKME\\1f3c5b22089d.jpg",
+      "tier2_score": 37.05,
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJC1-8SAARdkgRka4Oz24YKME\\e82b6fbd0955.jpg",
+      "tier2_score": 34.94,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJC1-8SAARdkgRka4Oz24YKME\\3ee9affc6cda.jpg",
+      "tier2_score": 29.94,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJC1-8SAARdkgRka4Oz24YKME\\1f3c5b22089d.jpg",
+    "tier2_score": 37.05,
+    "tier1_score": 17.78,
+    "aspect_ratio": 1.78
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 0
+  }
+}

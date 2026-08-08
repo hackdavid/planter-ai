@@ -1,0 +1,62 @@
+{
+  "place_id": "ChIJv8B2u0IddkgRjIK85FjXUYU",
+  "status": "success",
+  "websiteUri": "http://www.theviewtube.co.uk/",
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJv8B2u0IddkgRjIK85FjXUYU\\6b09a28d6ce7.jpg",
+    "size_bytes": 68262,
+    "name": "places/ChIJv8B2u0IddkgRjIK85FjXUYU/photos/AWCwydhhc1MrTuT_pbJCbYgTHeUl2psjNQXi92e6Ibk5GrnqcOmvVt51nkllsGL3celjYieWFWyAC6wQdd7Vn3rKgUunpOWETJpWdz04j1sNHW3vb4kid1VZIO7dihT1P46F7Hbt6MxOpE78lJgeJL63csidx3XG5gudTDB_FDTAYd58rVjo5b3E82bPec5IvTwj5L0opfoIvYaOCTraMzE7dhIdv3dVtbGkAGPE-U380YoaEW9_MwYhC-Y26DTddY6rNfVfa1EwGpXmhxSfIKnP-HUP-WjpkGEpJf22DVT46vsaQBVJMPTv7rp92r0htIn3lrb1t4E29GIEbBrIFoiLmwJRPmKLEz5s9QJ6Q22vm2nH8IOPxI9p7yClAahj5wILsiaPscIH54f6YZdO1lxSYdtuvjVAPoVuG65V-2QfhTiePO6f",
+    "tier1_score": 15.06,
+    "aspect_ratio": 1.51,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.377,
+    "analyzed_width": 640,
+    "analyzed_height": 425,
+    "tier2_score": 36.58
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJv8B2u0IddkgRjIK85FjXUYU\\6b09a28d6ce7.jpg",
+      "size_bytes": 68262,
+      "name": "places/ChIJv8B2u0IddkgRjIK85FjXUYU/photos/AWCwydhhc1MrTuT_pbJCbYgTHeUl2psjNQXi92e6Ibk5GrnqcOmvVt51nkllsGL3celjYieWFWyAC6wQdd7Vn3rKgUunpOWETJpWdz04j1sNHW3vb4kid1VZIO7dihT1P46F7Hbt6MxOpE78lJgeJL63csidx3XG5gudTDB_FDTAYd58rVjo5b3E82bPec5IvTwj5L0opfoIvYaOCTraMzE7dhIdv3dVtbGkAGPE-U380YoaEW9_MwYhC-Y26DTddY6rNfVfa1EwGpXmhxSfIKnP-HUP-WjpkGEpJf22DVT46vsaQBVJMPTv7rp92r0htIn3lrb1t4E29GIEbBrIFoiLmwJRPmKLEz5s9QJ6Q22vm2nH8IOPxI9p7yClAahj5wILsiaPscIH54f6YZdO1lxSYdtuvjVAPoVuG65V-2QfhTiePO6f",
+      "tier1_score": 15.06,
+      "aspect_ratio": 1.51,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.377,
+      "analyzed_width": 640,
+      "analyzed_height": 425,
+      "tier2_score": 36.58
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJv8B2u0IddkgRjIK85FjXUYU\\82c762791639.jpg",
+      "size_bytes": 101622,
+      "name": "places/ChIJv8B2u0IddkgRjIK85FjXUYU/photos/AWCwydhR1MsQHRiIv6kXp4SGefxtrhClJViiY0Lb4-KJF8ip8artAuEQd2zqnllWdj1uEAIsm3sLTxQSSdoXDbosoydflWvzoOT80Y5_YSb0lNbMohMbtNfkkg1EFo1OAx4IPZDuRRUd5EREF-CiOiS3uSZ1oiVQsL4QMShJcZHTX-PVhYr1PhhI_9k7QesU3J0VAiCpdYcIKBi-f9kqNCxtnRhoYhbcU2f4MF0Fx1LU4GH7oZzKZbzo_EGo5c04wfJpqrpkkbuOfjwX46qZjBgJVHAHDCEtY6VuU14ejZP8gLQxCU_6D-DjttnCOM6KmRWpVcuknALMMHqWGXD1Axw-m1wltIhtH4EiUfCceqLqsgSSx0ZJMbjB81ZKTTCW4j3SM3fhox3fNTXpa-Uo14neSGXTf4FOlh7JOB3kZYjwUhaOhH8",
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.274,
+      "analyzed_width": 640,
+      "analyzed_height": 360,
+      "tier2_score": 36.15
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJv8B2u0IddkgRjIK85FjXUYU\\d5ad439626a2.jpg",
+      "size_bytes": 97759,
+      "name": "places/ChIJv8B2u0IddkgRjIK85FjXUYU/photos/AWCwydi9h8VNqCXs4hP6nZwEY8kU7U5Ei9mmIRaC5W52wVgskIuLdOFhAI7NWzs8di6LX8MQ6Leacoj8xN7P3nx-pUTFDK8oFiHaty9k39QB6Em8N1PgS5nWEITprTXsV2EznhWXlAkg9L-PpkXYhUjNNKlYGB9QFzArB2tCCwsGZA9mEBCkiRTd2bhNl6Rh2uHTL00MqZC9Lqp97ZUONrbnlDVk3p4IlINaiC_AbVyMjdQYR9YYl4INomMas07WhN3Imscn4Emq2d5H7Je1RblkTi4-G5PAPb2OYtlCgY9WyGJQaaInY7LpwFcAByeUXoZFm2_EKYF8oHTBVbHvpATDzkDhzMCvGF8j0bPVU2TkbuH-Zyj0cToFMzB7rhNOmOska3Hb_FxSmO0y84GvSANtm3RHPf25iXJziEOYg6kDqA",
+      "tier1_score": 15.06,
+      "aspect_ratio": 1.51,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.24,
+      "analyzed_width": 640,
+      "analyzed_height": 425,
+      "tier2_score": 33.84
+    }
+  ],
+  "downloaded_count": 3,
+  "fetched_at": "2026-08-08T13:02:53Z"
+}

@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJF8R_7LuFdUgR44NtgLboYyU",
+  "place_id": "ChIJF8R_7LuFdUgR44NtgLboYyU",
+  "name": "Open Bakery",
+  "address": "34 St George's Rd, Kemptown, Brighton and Hove, Brighton BN2 1ED, UK",
+  "lat": 50.818665599999996,
+  "lng": -0.12149969999999999,
+  "panorama_lat": 50.81865592840578,
+  "panorama_lng": -0.1215161339029005,
+  "computed_bearing": 47.03,
+  "primary_heading": 47,
+  "validation_heading": 67,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 1.6,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T17:53:38Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

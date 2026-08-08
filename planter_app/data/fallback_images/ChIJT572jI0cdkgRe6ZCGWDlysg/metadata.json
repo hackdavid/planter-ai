@@ -1,0 +1,41 @@
+{
+  "place_id": "ChIJT572jI0cdkgRe6ZCGWDlysg",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://www.cafeoto.co.uk/",
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJT572jI0cdkgRe6ZCGWDlysg\\557fc47f9be3.jpg",
+      "tier2_score": 37.32,
+      "tier1_score": 17.76,
+      "aspect_ratio": 1.78
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJT572jI0cdkgRe6ZCGWDlysg\\7709a9cd4b6d.jpg",
+      "tier2_score": 35.02,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJT572jI0cdkgRe6ZCGWDlysg\\26ef2b777ffc.jpg",
+      "tier2_score": 31.74,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJT572jI0cdkgRe6ZCGWDlysg\\557fc47f9be3.jpg",
+    "tier2_score": 37.32,
+    "tier1_score": 17.76,
+    "aspect_ratio": 1.78
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 0
+  }
+}

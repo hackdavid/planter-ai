@@ -1,0 +1,111 @@
+{
+  "place_id": "ChIJl4U-v2oOdkgRFWS0S2n5GZc",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "https://gails.com/pages/chiswick",
+  "candidate_count": 13,
+  "candidates": [
+    {
+      "source": "website",
+      "path": "https://cdn.shopify.com/s/files/1/0717/9658/8827/files/In_Season_Image.jpg?v=1780050049",
+      "tier2_score": 42.58,
+      "tier1_score": 25.0,
+      "aspect_ratio": 2.0
+    },
+    {
+      "source": "website",
+      "path": "https://cdn.shopify.com/s/files/1/0717/9658/8827/files/In_Season_Image.jpg?v=1780050049",
+      "tier2_score": 42.58,
+      "tier1_score": 25.0,
+      "aspect_ratio": 2.0
+    },
+    {
+      "source": "website",
+      "path": "https://cdn.shopify.com/s/files/1/0717/9658/8827/files/In_Season_Image.jpg?v=1780050049",
+      "tier2_score": 42.58,
+      "tier1_score": 25.0,
+      "aspect_ratio": 2.0
+    },
+    {
+      "source": "website",
+      "path": "https://cdn.shopify.com/s/files/1/0717/9658/8827/files/In_Season_Image.jpg?v=1780050049",
+      "tier2_score": 42.58,
+      "tier1_score": 25.0,
+      "aspect_ratio": 2.0
+    },
+    {
+      "source": "website",
+      "path": "https://cdn.shopify.com/s/files/1/0717/9658/8827/files/In_Season_Image.jpg?v=1780050049",
+      "tier2_score": 42.58,
+      "tier1_score": 25.0,
+      "aspect_ratio": 2.0
+    },
+    {
+      "source": "website",
+      "path": "https://cdn.shopify.com/s/files/1/0717/9658/8827/files/In_Season_Image.jpg?v=1780050049",
+      "tier2_score": 42.58,
+      "tier1_score": 25.0,
+      "aspect_ratio": 2.0
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJl4U-v2oOdkgRFWS0S2n5GZc\\1a7a34814f96.jpg",
+      "tier2_score": 37.0,
+      "tier1_score": 14.9,
+      "aspect_ratio": 1.49
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJl4U-v2oOdkgRFWS0S2n5GZc\\afcb378f9567.jpg",
+      "tier2_score": 34.78,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "https://gails.com/cdn/shop/files/COMMUNITIES.jpg?crop=center&height=2657&v=1784794190&width=3543",
+      "tier2_score": 32.94,
+      "tier1_score": 18.3,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "https://gails.com/cdn/shop/files/CRAFT_PROCESS.jpg?crop=center&height=2657&v=1784794192&width=3543",
+      "tier2_score": 32.38,
+      "tier1_score": 18.3,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJl4U-v2oOdkgRFWS0S2n5GZc\\e0d39d0d5b7c.jpg",
+      "tier2_score": 31.7,
+      "tier1_score": 14.14,
+      "aspect_ratio": 1.41
+    },
+    {
+      "source": "website",
+      "path": "https://gails.com/cdn/shop/files/OUR-STORY.jpg?crop=center&height=3072&v=1784794190&width=4096",
+      "tier2_score": 31.28,
+      "tier1_score": 18.3,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "https://gails.com/cdn/shop/files/SOURCING_2.jpg?crop=center&height=3096&v=1784794190&width=4128",
+      "tier2_score": 31.0,
+      "tier1_score": 18.3,
+      "aspect_ratio": 1.33
+    }
+  ],
+  "best_candidate": {
+    "source": "website",
+    "path": "https://cdn.shopify.com/s/files/1/0717/9658/8827/files/In_Season_Image.jpg?v=1780050049",
+    "tier2_score": 42.58,
+    "tier1_score": 25.0,
+    "aspect_ratio": 2.0
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 10
+  }
+}

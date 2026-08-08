@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planter Prospecting Engine — Automated Venue Visualisation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        sage: { 50: '#f4f7f2', 100: '#e3ebe0', 200: '#c7d7c1', 300: '#a3bc9a', 400: '#7c9a6b', 500: '#5d7f4e', 600: '#48653d', 700: '#3a5133', 800: '#2d4a3e', 900: '#1a2d1f' },
+                        cream: { 50: '#fdfcfa', 100: '#f5f0e8', 200: '#ebe4d4', 300: '#ddd1b8' },
+                        forest: '#2d4a3e',
+                        clay: '#c17f59',
+                    },
+                    fontFamily: {
+                        display: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .before-after-slider { position: relative; overflow: hidden; border-radius: 0.75rem; }
+        .before-after-slider img { width: 100%; height: 100%; object-fit: cover; }
+        .fade-in { animation: fadeIn 0.6s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+        .pulse-dot { animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+        .glass-card { background: rgba(255,255,255,0.85); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.3); }
+        .gradient-text { background: linear-gradient(135deg, #2d4a3e 0%, #5d7f4e 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="font-body bg-cream-50 text-gray-800 antialiased">
+
+    <!-- Navbar -->
+    <nav class="bg-white/90 backdrop-blur-md border-b border-cream-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-lg bg-sage-500 flex items-center justify-center">
+                        <i class="fa-solid fa-leaf text-white text-sm"></i>
+                    </div>
+                    <span class="font-display font-bold text-xl text-forest">Planter Engine</span>
+                </div>
+                <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                    <a href="#how-it-works" class="text-gray-600 hover:text-sage-600 transition">How It Works</a>
+                    <a href="#demo" class="text-gray-600 hover:text-sage-600 transition">Demo Venues</a>
+                    <a href="#pipeline" class="text-gray-600 hover:text-sage-600 transition">Run Pipeline</a>
+                    <a href="/docs" target="_blank" class="text-sage-600 hover:text-sage-700 transition">API Docs</a>
+                </div>
+                <button id="menu-toggle" class="md:hidden p-2 text-gray-600">
+                    <i class="fa-solid fa-bars text-lg"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden border-t border-cream-200 bg-white">
+            <div class="px-4 py-3 space-y-2">
+                <a href="#how-it-works" class="block py-2 text-gray-600">How It Works</a>
+                <a href="#demo" class="block py-2 text-gray-600">Demo Venues</a>
+                <a href="#pipeline" class="block py-2 text-gray-600">Run Pipeline</a>
+                <a href="/docs" class="block py-2 text-sage-600">API Docs</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="relative bg-gradient-to-br from-forest via-sage-800 to-sage-900 text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-white rounded-full blur-3xl"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 bg-sage-400 rounded-full blur-3xl"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-36 relative">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-sm font-medium mb-8">
+                    <span class="w-2 h-2 rounded-full bg-green-400 pulse-dot"></span>
+                    Automated Prospecting Engine
+                </div>
+                <h1 class="font-display text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight">
+                    Turn any London café into a <span class="text-sage-300">planter opportunity</span>
+                </h1>
+                <p class="mt-6 text-lg sm:text-xl text-gray-300 leading-relaxed max-w-2xl">
+                    Discover independent venues with bare frontages. Capture their real entrance. Generate photorealistic "planter installed" visuals — automatically, at scale, with zero manual curation.
+                </p>
+                <div class="mt-10 flex flex-col sm:flex-row gap-4">
+                    <a href="#demo" class="px-8 py-4 bg-white text-forest rounded-xl font-semibold text-center hover:bg-cream-100 transition shadow-lg shadow-black/20">
+                        <i class="fa-solid fa-images mr-2"></i>View Demo Composites
+                    </a>
+                    <a href="#pipeline" class="px-8 py-4 border border-white/30 rounded-xl font-semibold text-center hover:bg-white/10 transition">
+                        <i class="fa-solid fa-play mr-2"></i>Run the Pipeline
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Wave divider -->
+        <div class="absolute bottom-0 left-0 right-0">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="#fdfcfa"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-20 sm:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="font-display text-3xl sm:text-4xl font-bold text-forest">Three phases. Zero manual work.</h2>
+                <p class="mt-4 text-gray-600 text-lg">The engine discovers, validates, and visualises — end to end — without a human eyeballing a single candidate.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Phase 1 -->
+                <div class="glass-card rounded-2xl p-8 hover:shadow-xl transition duration-300">
+                    <div class="w-14 h-14 rounded-xl bg-sage-100 flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-magnifying-glass-location text-sage-600 text-xl"></i>
+                    </div>
+                    <div class="text-sm font-semibold text-sage-600 mb-2">Phase 1</div>
+                    <h3 class="font-display text-xl font-bold text-forest mb-3">Venue Discovery</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Google Places API → heuristic filtering (chain detection, operational status, street proximity) → SQLite cache. Produces 50 ranked candidates in ~3 seconds.
+                    </p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-sage-50 text-sage-700 rounded-full text-xs font-medium">Google Places</span>
+                        <span class="px-3 py-1 bg-sage-50 text-sage-700 rounded-full text-xs font-medium">SQLite Cache</span>
+                        <span class="px-3 py-1 bg-sage-50 text-sage-700 rounded-full text-xs font-medium">Heuristic Filter</span>
+                    </div>
+                </div>
+
+                <!-- Phase 2 -->
+                <div class="glass-card rounded-2xl p-8 hover:shadow-xl transition duration-300">
+                    <div class="w-14 h-14 rounded-xl bg-clay/20 flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-camera text-clay text-xl"></i>
+                    </div>
+                    <div class="text-sm font-semibold text-clay mb-2">Phase 2</div>
+                    <h3 class="font-display text-xl font-bold text-forest mb-3">Image & Validation</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Street View primary (heading-derived framing) → Gemini Vision QA gate → fallback to Business Photos + Website Crawler if Street View fails. Only street-facing, unobscured exteriors pass.
+                    </p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-cream-100 text-forest rounded-full text-xs font-medium">Street View</span>
+                        <span class="px-3 py-1 bg-cream-100 text-forest rounded-full text-xs font-medium">Gemini Vision QA</span>
+                        <span class="px-3 py-1 bg-cream-100 text-forest rounded-full text-xs font-medium">Fallback</span>
+                    </div>
+                </div>
+
+                <!-- Phase 3 -->
+                <div class="glass-card rounded-2xl p-8 hover:shadow-xl transition duration-300">
+                    <div class="w-14 h-14 rounded-xl bg-sage-100 flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-wand-magic-sparkles text-sage-600 text-xl"></i>
+                    </div>
+                    <div class="text-sm font-semibold text-sage-600 mb-2">Phase 3</div>
+                    <h3 class="font-display text-xl font-bold text-forest mb-3">Compositing</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Generative-first (Replicate FLUX Kontext Pro) edits the real frontage photo with natural-language spatial prompts. Falls back to deterministic CV (OpenCV + PIL) on any error.
+                    </p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-sage-50 text-sage-700 rounded-full text-xs font-medium">FLUX Kontext Pro</span>
+                        <span class="px-3 py-1 bg-sage-50 text-sage-700 rounded-full text-xs font-medium">OpenCV</span>
+                        <span class="px-3 py-1 bg-sage-50 text-sage-700 rounded-full text-xs font-medium">Auto-Fallback</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pipeline Stats Dashboard -->
+    <section class="py-16 bg-white border-y border-cream-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="font-display text-2xl sm:text-3xl font-bold text-forest">Pipeline Status</h2>
+                <button onclick="loadStats()" class="px-4 py-2 bg-sage-50 text-sage-700 rounded-lg text-sm font-medium hover:bg-sage-100 transition">
+                    <i class="fa-solid fa-rotate mr-2"></i>Refresh
+                </button>
+            </div>
+            <div id="stats-grid" class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4">
+                <!-- Stats loaded by JS -->
+                <div class="bg-cream-50 rounded-xl p-5 text-center">
+                    <div class="text-3xl font-bold text-forest">50</div>
+                    <div class="text-sm text-gray-500 mt-1">Candidates Found</div>
+                </div>
+                <div class="bg-cream-50 rounded-xl p-5 text-center">
+                    <div class="text-3xl font-bold text-sage-600">27</div>
+                    <div class="text-sm text-gray-500 mt-1">With SV=100</div>
+                </div>
+                <div class="bg-cream-50 rounded-xl p-5 text-center">
+                    <div class="text-3xl font-bold text-sage-600">10</div>
+                    <div class="text-sm text-gray-500 mt-1">SV Images</div>
+                </div>
+                <div class="bg-cream-50 rounded-xl p-5 text-center">
+                    <div class="text-3xl font-bold text-green-600">3</div>
+                    <div class="text-sm text-gray-500 mt-1">Passed QA</div>
+                </div>
+                <div class="bg-cream-50 rounded-xl p-5 text-center">
+                    <div class="text-3xl font-bold text-clay">7</div>
+                    <div class="text-sm text-gray-500 mt-1">Failed QA</div>
+                </div>
+                <div class="bg-cream-50 rounded-xl p-5 text-center">
+                    <div class="text-3xl font-bold text-forest">3</div>
+                    <div class="text-sm text-gray-500 mt-1">Composites</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Venues -->
+    <section id="demo" class="py-20 sm:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="font-display text-3xl sm:text-4xl font-bold text-forest">Three venues. Three composites.</h2>
+                <p class="mt-4 text-gray-600 text-lg">Selected <strong>automatically</strong> by the pipeline. No human curation. Each shows the original frontage and the planter installed visual.</p>
+            </div>
+
+            <div id="venues-container" class="space-y-16">
+                <!-- Venues loaded by JS -->
+                <div class="text-center py-12">
+                    <div class="inline-block w-8 h-8 border-2 border-sage-300 border-t-sage-600 rounded-full animate-spin"></div>
+                    <p class="mt-3 text-gray-500 text-sm">Loading demo venues...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Mode Banner -->
+    <div class="bg-amber-50 border-y border-amber-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <i class="fa-solid fa-circle-info text-amber-600 text-sm"></i>
+                </div>
+                <div>
+                    <p class="text-sm font-semibold text-amber-800">This deployed instance runs in Demo Mode only</p>
+                    <p class="text-sm text-amber-700 mt-1">
+                        No API keys are configured on the server. The pipeline returns cached London results with $0 API cost.
+                        To run live queries for any city, clone the repo locally, add your Google Places / Gemini keys to <code class="bg-amber-100 px-1.5 py-0.5 rounded text-xs font-mono">.env</code>, and start the server.
+                        <a href="#deployment" class="underline font-medium hover:text-amber-900 transition">See deployment guide →</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Run Pipeline -->
+    <section id="pipeline" class="py-20 sm:py-24 bg-gradient-to-b from-white to-cream-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-display text-3xl sm:text-4xl font-bold text-forest">Run the Pipeline</h2>
+                <p class="mt-4 text-gray-600">Trigger the full end-to-end pipeline via the API. Results stream back in real-time.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
+                <!-- Left: Form -->
+                <div class="lg:col-span-3">
+                    <div class="glass-card rounded-2xl p-8 shadow-lg">
+                        <form id="pipeline-form" class="space-y-5">
+                            <!-- Row 1: City + Mode -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">City</label>
+                                    <input type="text" id="city" value="London, UK" class="w-full px-4 py-3 rounded-xl border border-cream-300 bg-white focus:ring-2 focus:ring-sage-400 focus:border-transparent outline-none transition">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">Mode</label>
+                                    <div class="flex gap-2">
+                                        <label class="flex-1 cursor-pointer">
+                                            <input type="radio" name="mode" value="demo" id="mode-demo" checked class="peer hidden">
+                                            <div class="text-center py-3 rounded-xl border border-cream-300 bg-white peer-checked:bg-sage-50 peer-checked:border-sage-500 peer-checked:text-sage-700 transition text-sm font-medium text-gray-600">
+                                                <i class="fa-solid fa-flask mr-1"></i>Demo
+                                            </div>
+                                        </label>
+                                        <label class="flex-1 cursor-pointer">
+                                            <input type="radio" name="mode" value="production" id="mode-production" class="peer hidden">
+                                            <div class="text-center py-3 rounded-xl border border-cream-300 bg-white peer-checked:bg-amber-50 peer-checked:border-amber-500 peer-checked:text-amber-700 transition text-sm font-medium text-gray-600">
+                                                <i class="fa-solid fa-bolt mr-1"></i>Live
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Row 2: Categories -->
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Venue Categories</label>
+                                <div class="flex flex-wrap gap-3">
+                                    <label class="flex items-center gap-2 px-3 py-2 bg-white border border-cream-300 rounded-lg cursor-pointer hover:bg-cream-50 transition">
+                                        <input type="checkbox" name="categories" value="cafe" checked class="w-4 h-4 text-sage-600 rounded border-cream-300 focus:ring-sage-400">
+                                        <span class="text-sm text-gray-700">Café</span>
+                                    </label>
+                                    <label class="flex items-center gap-2 px-3 py-2 bg-white border border-cream-300 rounded-lg cursor-pointer hover:bg-cream-50 transition">
+                                        <input type="checkbox" name="categories" value="restaurant" checked class="w-4 h-4 text-sage-600 rounded border-cream-300 focus:ring-sage-400">
+                                        <span class="text-sm text-gray-700">Restaurant</span>
+                                    </label>
+                                    <label class="flex items-center gap-2 px-3 py-2 bg-white border border-cream-300 rounded-lg cursor-pointer hover:bg-cream-50 transition">
+                                        <input type="checkbox" name="categories" value="bar" class="w-4 h-4 text-sage-600 rounded border-cream-300 focus:ring-sage-400">
+                                        <span class="text-sm text-gray-700">Bar</span>
+                                    </label>
+                                    <label class="flex items-center gap-2 px-3 py-2 bg-white border border-cream-300 rounded-lg cursor-pointer hover:bg-cream-50 transition">
+                                        <input type="checkbox" name="categories" value="bakery" class="w-4 h-4 text-sage-600 rounded border-cream-300 focus:ring-sage-400">
+                                        <span class="text-sm text-gray-700">Bakery</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- Row 3: Numbers -->
+                            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Candidates</label>
+                                    <input type="number" id="quantity" value="50" min="1" max="500" class="w-full px-3 py-2 rounded-xl border border-cream-300 bg-white focus:ring-2 focus:ring-sage-400 focus:border-transparent outline-none transition text-sm">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Max Venues</label>
+                                    <input type="number" id="max-venues" value="10" min="1" max="100" class="w-full px-3 py-2 rounded-xl border border-cream-300 bg-white focus:ring-2 focus:ring-sage-400 focus:border-transparent outline-none transition text-sm">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">API Safety Cap</label>
+                                    <input type="number" id="max-api-calls" value="250" min="10" max="2000" class="w-full px-3 py-2 rounded-xl border border-cream-300 bg-white focus:ring-2 focus:ring-sage-400 focus:border-transparent outline-none transition text-sm">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Retry on Fail</label>
+                                    <input type="number" id="retry-count" value="1" min="0" max="5" class="w-full px-3 py-2 rounded-xl border border-cream-300 bg-white focus:ring-2 focus:ring-sage-400 focus:border-transparent outline-none transition text-sm">
+                                </div>
+                            </div>
+
+                            <!-- Row 4: Planter Upload + Dimensions -->
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Planter Image</label>
+                                <div class="relative">
+                                    <input type="file" id="planter-upload" accept="image/png,image/jpeg,image/jpg,image/webp" class="hidden">
+                                    <label for="planter-upload" class="flex items-center gap-3 w-full px-4 py-3 rounded-xl border border-dashed border-cream-400 bg-white hover:bg-cream-50 cursor-pointer transition">
+                                        <div class="w-10 h-10 rounded-lg bg-cream-100 flex items-center justify-center flex-shrink-0" id="upload-thumb-wrap">
+                                            <i class="fa-solid fa-cloud-arrow-up text-cream-400" id="upload-icon"></i>
+                                            <img id="upload-preview" class="w-full h-full object-cover rounded-lg hidden" alt="Preview">
+                                        </div>
+                                        <div class="min-w-0">
+                                            <div class="text-sm font-medium text-forest truncate" id="upload-filename">Click to upload planter image</div>
+                                            <div class="text-xs text-gray-500">PNG, JPG, WEBP — product photo on neutral background</div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <input type="hidden" id="planter-fallback-path" value="sample_plants/plant1.png">
+
+                                <!-- Planter real-world dimensions -->
+                                <div class="grid grid-cols-3 gap-4 mt-4">
+                                    <div>
+                                        <label class="block text-xs font-medium text-gray-600 mb-1">Width (cm)</label>
+                                        <input type="number" id="planter-width-cm" value="35" min="10" max="200" class="w-full px-3 py-2 rounded-xl border border-cream-300 bg-white focus:ring-2 focus:ring-sage-400 focus:border-transparent outline-none transition text-sm">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-medium text-gray-600 mb-1">Height (cm)</label>
+                                        <input type="number" id="planter-height-cm" value="45" min="10" max="200" class="w-full px-3 py-2 rounded-xl border border-cream-300 bg-white focus:ring-2 focus:ring-sage-400 focus:border-transparent outline-none transition text-sm">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-medium text-gray-600 mb-1">Door gap (cm)</label>
+                                        <input type="number" id="door-gap-cm" value="30" min="0" max="200" class="w-full px-3 py-2 rounded-xl border border-cream-300 bg-white focus:ring-2 focus:ring-sage-400 focus:border-transparent outline-none transition text-sm">
+                                        <div class="text-[10px] text-gray-400 mt-0.5">Distance from door frame</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Row 5: Options -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div class="space-y-2">
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="checkbox" id="use-generative" class="w-4 h-4 text-sage-600 rounded border-cream-300 focus:ring-sage-400">
+                                        <span class="text-sm text-gray-700">Use generative AI (Replicate FLUX)</span>
+                                    </label>
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="checkbox" id="use-cache" checked class="w-4 h-4 text-sage-600 rounded border-cream-300 focus:ring-sage-400">
+                                        <span class="text-sm text-gray-700">Use cache (prefer cached data)</span>
+                                    </label>
+                                </div>
+                                <div class="space-y-2">
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="checkbox" id="force-phase1" class="w-4 h-4 text-sage-600 rounded border-cream-300 focus:ring-sage-400">
+                                        <span class="text-sm text-gray-700">Force refresh Phase 1 (venues)</span>
+                                    </label>
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="checkbox" id="force-phase2" class="w-4 h-4 text-sage-600 rounded border-cream-300 focus:ring-sage-400">
+                                        <span class="text-sm text-gray-700">Force refresh Phase 2 (images)</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <button type="submit" id="run-btn" class="w-full py-4 bg-gradient-to-r from-sage-600 to-sage-700 text-white rounded-xl font-semibold text-lg hover:from-sage-700 hover:to-sage-800 transition shadow-lg shadow-sage-200">
+                                <i class="fa-solid fa-rocket mr-2"></i>Run Pipeline
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Right: Results Panel -->
+                <div class="lg:col-span-2">
+                    <div id="pipeline-result-panel" class="glass-card rounded-2xl p-6 shadow-lg border border-sage-100 hidden">
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
+                                    <i class="fa-solid fa-check text-green-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-forest">Pipeline Result</h3>
+                                    <p class="text-xs text-gray-500" id="result-status">Completed</p>
+                                </div>
+                            </div>
+                            <button onclick="openResultModal()" class="px-3 py-1.5 bg-sage-50 text-sage-700 rounded-lg text-xs font-medium hover:bg-sage-100 transition">
+                                <i class="fa-solid fa-expand mr-1"></i>View Full
+                            </button>
+                        </div>
+
+                        <!-- Metrics Grid -->
+                        <div class="grid grid-cols-2 gap-3" id="result-metrics">
+                            <!-- Filled by JS -->
+                        </div>
+
+                        <!-- Composites Preview -->
+                        <div class="mt-5" id="result-composites-preview">
+                            <h4 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Composites</h4>
+                            <div class="space-y-3" id="composite-preview-list"></div>
+                        </div>
+                    </div>
+
+                    <!-- Empty state -->
+                    <div id="pipeline-empty" class="glass-card rounded-2xl p-8 text-center border border-dashed border-cream-300">
+                        <div class="w-14 h-14 rounded-full bg-cream-100 flex items-center justify-center mx-auto mb-4">
+                            <i class="fa-solid fa-chart-pie text-cream-400 text-xl"></i>
+                        </div>
+                        <p class="text-gray-500 text-sm">Run the pipeline to see results here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Result Modal -->
+    <div id="result-modal" class="fixed inset-0 z-50 hidden" role="dialog" aria-modal="true">
+        <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" onclick="closeResultModal()"></div>
+        <div class="absolute inset-4 sm:inset-8 lg:inset-12 bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col">
+            <!-- Modal Header -->
+            <div class="flex items-center justify-between px-6 py-4 border-b border-cream-200 bg-cream-50">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-full bg-sage-100 flex items-center justify-center">
+                        <i class="fa-solid fa-file-code text-sage-600 text-sm"></i>
+                    </div>
+                    <h3 class="font-semibold text-forest">Full Pipeline Response</h3>
+                </div>
+                <button onclick="closeResultModal()" class="w-8 h-8 rounded-full hover:bg-cream-200 flex items-center justify-center transition">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                </button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="flex-1 overflow-y-auto p-6">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <!-- Left: JSON -->
+                    <div class="lg:col-span-1">
+                        <h4 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Raw JSON</h4>
+                        <pre id="modal-result-json" class="bg-gray-900 text-green-400 rounded-xl p-4 text-xs overflow-x-auto font-mono leading-relaxed max-h-96 overflow-y-auto"></pre>
+                    </div>
+
+                    <!-- Right: Visual Cards -->
+                    <div class="lg:col-span-2">
+                        <h4 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Generated Composites</h4>
+                        <div id="modal-composites-grid" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
+                            <!-- Filled by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tech Stack -->
+    <section class="py-16 bg-white border-t border-cream-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-display text-2xl sm:text-3xl font-bold text-forest">Built With</h2>
+            </div>
+            <div class="flex flex-wrap justify-center gap-6">
+                <div class="flex items-center gap-3 px-5 py-3 bg-cream-50 rounded-xl border border-cream-200">
+                    <i class="fa-brands fa-python text-blue-600 text-xl"></i>
+                    <span class="text-sm font-medium text-gray-700">Python + FastAPI</span>
+                </div>
+                <div class="flex items-center gap-3 px-5 py-3 bg-cream-50 rounded-xl border border-cream-200">
+                    <i class="fa-solid fa-database text-gray-600 text-xl"></i>
+                    <span class="text-sm font-medium text-gray-700">SQLite Cache</span>
+                </div>
+                <div class="flex items-center gap-3 px-5 py-3 bg-cream-50 rounded-xl border border-cream-200">
+                    <i class="fa-solid fa-brain text-purple-600 text-xl"></i>
+                    <span class="text-sm font-medium text-gray-700">Gemini Vision QA</span>
+                </div>
+                <div class="flex items-center gap-3 px-5 py-3 bg-cream-50 rounded-xl border border-cream-200">
+                    <i class="fa-solid fa-wand-magic-sparkles text-pink-600 text-xl"></i>
+                    <span class="text-sm font-medium text-gray-700">Replicate FLUX</span>
+                </div>
+                <div class="flex items-center gap-3 px-5 py-3 bg-cream-50 rounded-xl border border-cream-200">
+                    <i class="fa-solid fa-image text-green-600 text-xl"></i>
+                    <span class="text-sm font-medium text-gray-700">OpenCV + rembg</span>
+                </div>
+                <div class="flex items-center gap-3 px-5 py-3 bg-cream-50 rounded-xl border border-cream-200">
+                    <i class="fa-solid fa-map text-red-500 text-xl"></i>
+                    <span class="text-sm font-medium text-gray-700">Google Places API</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-forest text-cream-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-8 h-8 rounded-lg bg-sage-500 flex items-center justify-center">
+                            <i class="fa-solid fa-leaf text-white text-xs"></i>
+                        </div>
+                        <span class="font-display font-bold text-lg text-white">Planter Engine</span>
+                    </div>
+                    <p class="text-sm text-cream-300 leading-relaxed">
+                        Automated venue discovery and visual prospecting for design-led outdoor planters. Stage 1 of 3.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-white mb-4">API Endpoints</h4>
+                    <ul class="space-y-2 text-sm text-cream-300">
+                        <li><code class="bg-white/10 px-2 py-1 rounded text-xs">GET /api/health</code></li>
+                        <li><code class="bg-white/10 px-2 py-1 rounded text-xs">GET /api/demo</code></li>
+                        <li><code class="bg-white/10 px-2 py-1 rounded text-xs">POST /api/pipeline/run</code></li>
+                        <li><code class="bg-white/10 px-2 py-1 rounded text-xs">GET /api/candidates</code></li>
+                        <li><code class="bg-white/10 px-2 py-1 rounded text-xs">GET /docs</code></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-white mb-4">Links</h4>
+                    <ul class="space-y-2 text-sm text-cream-300">
+                        <li><a href="design.md" class="hover:text-white transition">Design Document</a></li>
+                        <li><a href="README.md" class="hover:text-white transition">README</a></li>
+                        <li><a href="/docs" class="hover:text-white transition">API Documentation (Swagger)</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 mt-8 pt-8 text-center text-sm text-cream-400">
+                Built with AI-assisted development tools. Quality of thinking over completeness.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="fixed inset-0 z-[60] hidden bg-black/90 flex items-center justify-center" onclick="closeLightbox()">
+        <button class="absolute top-4 right-4 text-white/70 hover:text-white text-2xl transition z-10" onclick="closeLightbox()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <img id="lightbox-img" src="" alt="Full screen" class="max-w-[95vw] max-h-[95vh] object-contain rounded-lg shadow-2xl" onclick="event.stopPropagation()">
+        <div class="absolute bottom-4 left-1/2 -translate-x-1/2 text-white/60 text-sm" id="lightbox-caption"></div>
+    </div>
+
+    <script>
+        // Mobile nav toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuToggle?.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+        // ------------------------------------------------------------------
+        // Lightbox
+        // ------------------------------------------------------------------
+        function openLightbox(src, caption) {
+            const lb = document.getElementById('lightbox');
+            const img = document.getElementById('lightbox-img');
+            const cap = document.getElementById('lightbox-caption');
+            img.src = src;
+            cap.textContent = caption || '';
+            lb.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeLightbox() {
+            const lb = document.getElementById('lightbox');
+            const img = document.getElementById('lightbox-img');
+            lb.classList.add('hidden');
+            img.src = '';
+            if (document.getElementById('result-modal').classList.contains('hidden')) {
+                document.body.style.overflow = '';
+            }
+        }
+
+        // ------------------------------------------------------------------
+        // File upload preview
+        // ------------------------------------------------------------------
+        const uploadInput = document.getElementById('planter-upload');
+        const uploadPreview = document.getElementById('upload-preview');
+        const uploadIcon = document.getElementById('upload-icon');
+        const uploadFilename = document.getElementById('upload-filename');
+
+        uploadInput?.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            uploadFilename.textContent = file.name;
+            const reader = new FileReader();
+            reader.onload = (ev) => {
+                uploadPreview.src = ev.target.result;
+                uploadPreview.classList.remove('hidden');
+                uploadIcon.classList.add('hidden');
+            };
+            reader.readAsDataURL(file);
+        });
+
+        // ------------------------------------------------------------------
+        // Load demo venues
+        // ------------------------------------------------------------------
+        async function loadDemoVenues() {
+            try {
+                const res = await fetch('/api/demo');
+                const data = await res.json();
+                const container = document.getElementById('venues-container');
+
+                if (!data.composites || data.composites.length === 0) {
+                    container.innerHTML = '<div class="text-center py-12 text-gray-500">No demo composites found. Run the pipeline first.</div>';
+                    return;
+                }
+
+                container.innerHTML = data.composites.map((venue, idx) => `
+                    <div class="fade-in" style="animation-delay: ${idx * 0.15}s">
+                        <div class="flex flex-col lg:flex-row gap-8 items-start">
+                            <div class="lg:w-1/3">
+                                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sage-50 text-sage-700 text-xs font-semibold mb-3">
+                                    <i class="fa-solid fa-store"></i>
+                                    Venue ${idx + 1}
+                                </div>
+                                <h3 class="font-display text-2xl font-bold text-forest mb-2">${venue.venue_name}</h3>
+                                <p class="text-gray-500 text-sm mb-4"><i class="fa-solid fa-location-dot mr-2 text-sage-500"></i>${venue.address}</p>
+                                <div class="flex flex-wrap gap-2 mb-4">
+                                    ${venue.variations.map(v => `
+                                        <span class="px-3 py-1 rounded-full text-xs font-medium ${v.mode === 'GENERATIVE' ? 'bg-purple-50 text-purple-700' : v.mode === 'CV' ? 'bg-green-50 text-green-700' : 'bg-gray-100 text-gray-500'}">
+                                            ${v.mode === 'GENERATIVE' ? '✨ AI' : v.mode === 'CV' ? '🎨 CV' : '—'}
+                                            ${v.position}
+                                        </span>
+                                    `).join('')}
+                                </div>
+                                <div class="text-xs text-gray-400">
+                                    ${venue.variations.filter(v => v.path).length} of 3 images available
+                                </div>
+                            </div>
+                            <div class="lg:w-2/3 w-full">
+                                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                                    ${venue.variations.map(v => `
+                                        <div class="relative group cursor-pointer" onclick="openLightbox('${v.path}', '${venue.venue_name} — ${v.position}')">
+                                            <div class="aspect-[4/3] rounded-xl overflow-hidden bg-cream-100 border border-cream-200 shadow-sm">
+                                                ${v.path ? `<img src="${v.path}" alt="${venue.venue_name} — ${v.position}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">` : `<div class="w-full h-full flex items-center justify-center text-gray-400 text-sm">No image</div>`}
+                                            </div>
+                                            <div class="absolute bottom-2 left-2 px-3 py-1 rounded-lg bg-black/60 text-white text-xs font-medium backdrop-blur-sm">
+                                                ${v.position.charAt(0).toUpperCase() + v.position.slice(1)}
+                                            </div>
+                                            ${v.mode === 'GENERATIVE' ? `<div class="absolute top-2 right-2 px-2 py-1 rounded-lg bg-purple-500/80 text-white text-xs font-medium backdrop-blur-sm">AI</div>` : ''}
+                                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                                                <div class="bg-black/50 rounded-full w-12 h-12 flex items-center justify-center">
+                                                    <i class="fa-solid fa-expand text-white"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        </div>
+                        ${idx < data.composites.length - 1 ? '<hr class="border-cream-200 mt-16">' : ''}
+                    </div>
+                `).join('');
+            } catch (err) {
+                document.getElementById('venues-container').innerHTML = `
+                    <div class="text-center py-12 text-red-500">
+                        <i class="fa-solid fa-triangle-exclamation mb-2"></i><br>
+                        Failed to load demo: ${err.message}
+                    </div>
+                `;
+            }
+        }
+
+        // Global to store last result
+        let lastPipelineResult = null;
+
+        // ------------------------------------------------------------------
+        // Pipeline form — multipart upload
+        // ------------------------------------------------------------------
+        document.getElementById('pipeline-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const btn = document.getElementById('run-btn');
+            const panel = document.getElementById('pipeline-result-panel');
+            const empty = document.getElementById('pipeline-empty');
+
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin mr-2"></i>Running Pipeline...';
+            panel.classList.add('hidden');
+            empty.classList.remove('hidden');
+
+            // Build FormData
+            const formData = new FormData();
+            formData.append('city', document.getElementById('city').value);
+            formData.append('mode', document.querySelector('input[name="mode"]:checked').value);
+            formData.append('quantity', document.getElementById('quantity').value);
+            formData.append('max_venues_for_images', document.getElementById('max-venues').value);
+            formData.append('max_api_calls', document.getElementById('max-api-calls').value);
+            formData.append('use_generative_ai', document.getElementById('use-generative').checked);
+            formData.append('use_cache', document.getElementById('use-cache').checked);
+            formData.append('force_refresh_phase1', document.getElementById('force-phase1').checked);
+            formData.append('force_refresh_phase2', document.getElementById('force-phase2').checked);
+            formData.append('planter_width_cm', document.getElementById('planter-width-cm').value);
+            formData.append('planter_height_cm', document.getElementById('planter-height-cm').value);
+            formData.append('door_gap_cm', document.getElementById('door-gap-cm').value);
+
+            // Categories
+            const checkedCats = Array.from(document.querySelectorAll('input[name="categories"]:checked')).map(cb => cb.value);
+            checkedCats.forEach(cat => formData.append('categories', cat));
+
+            const file = uploadInput.files[0];
+            if (file) {
+                formData.append('planter_image', file);
+            } else {
+                formData.append('planter_image_path', document.getElementById('planter-fallback-path').value);
+            }
+
+            try {
+                const res = await fetch('/api/pipeline/run', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await res.json();
+                lastPipelineResult = data;
+
+                // Show panel, hide empty
+                panel.classList.remove('hidden');
+                empty.classList.add('hidden');
+
+                // Update status
+                const statusEl = document.getElementById('result-status');
+                statusEl.textContent = data.status.toUpperCase();
+                statusEl.className = `text-xs font-semibold ${data.status === 'success' ? 'text-green-600' : data.status === 'partial' ? 'text-amber-600' : 'text-red-600'}`;
+
+                // Render metrics grid
+                const metrics = [
+                    { label: 'Candidates', value: data.candidates_found || 0, color: 'text-forest' },
+                    { label: 'SV Passed QA', value: data.sv_images_passed_qa || 0, color: 'text-green-600' },
+                    { label: 'SV Failed QA', value: data.sv_images_failed_qa || 0, color: 'text-clay' },
+                    { label: 'Composites', value: data.composites?.length || 0, color: 'text-sage-600' },
+                    { label: 'Fallback Pass', value: data.fallback_images_passed_qa || 0, color: 'text-purple-600' },
+                    { label: 'Mode', value: (data.details?.phases?.compositing?.mode || 'CV').toUpperCase(), color: 'text-gray-700' },
+                ];
+                document.getElementById('result-metrics').innerHTML = metrics.map(m => `
+                    <div class="bg-cream-50 rounded-xl p-3 text-center">
+                        <div class="text-xl font-bold ${m.color}">${m.value}</div>
+                        <div class="text-xs text-gray-500 mt-1">${m.label}</div>
+                    </div>
+                `).join('');
+
+                // Render composite preview list
+                const previewList = document.getElementById('composite-preview-list');
+                if (data.composites && data.composites.length > 0) {
+                    previewList.innerHTML = data.composites.slice(0, 3).map((c, idx) => `
+                        <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-cream-200 cursor-pointer" onclick="openLightbox('${c.variations[0]?.path || ''}', 'Venue ${idx + 1} — ${c.variations[0]?.position || ''}')">
+                            <div class="w-12 h-12 rounded-lg bg-cream-100 flex items-center justify-center flex-shrink-0 overflow-hidden">
+                                ${c.variations[0]?.path ? `<img src="${c.variations[0].path}" class="w-full h-full object-cover">` : '<i class="fa-solid fa-image text-cream-400"></i>'}
+                            </div>
+                            <div class="min-w-0">
+                                <div class="text-sm font-medium text-forest truncate">Venue ${idx + 1}</div>
+                                <div class="text-xs text-gray-500">${c.variations.length} variations</div>
+                            </div>
+                            <div class="ml-auto text-xs font-medium ${data.details?.phases?.compositing?.mode === 'GENERATIVE' ? 'text-purple-600' : 'text-green-600'}">
+                                ${data.details?.phases?.compositing?.mode === 'GENERATIVE' ? '✨ AI' : '🎨 CV'}
+                            </div>
+                        </div>
+                    `).join('');
+                } else {
+                    previewList.innerHTML = '<div class="text-sm text-gray-500 text-center py-3">No composites produced</div>';
+                }
+
+                // Scroll to panel
+                panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+            } catch (err) {
+                lastPipelineResult = { error: err.message };
+                panel.classList.remove('hidden');
+                empty.classList.add('hidden');
+                document.getElementById('result-metrics').innerHTML = `
+                    <div class="col-span-2 bg-red-50 rounded-xl p-4 text-center">
+                        <div class="text-red-600 font-semibold"><i class="fa-solid fa-triangle-exclamation mr-2"></i>Error</div>
+                        <div class="text-sm text-red-500 mt-1">${err.message}</div>
+                    </div>
+                `;
+                document.getElementById('composite-preview-list').innerHTML = '';
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fa-solid fa-rocket mr-2"></i>Run Pipeline';
+            }
+        });
+
+        // ------------------------------------------------------------------
+        // Result modal
+        // ------------------------------------------------------------------
+        function openResultModal() {
+            if (!lastPipelineResult) return;
+            document.getElementById('modal-result-json').textContent = JSON.stringify(lastPipelineResult, null, 2);
+
+            const grid = document.getElementById('modal-composites-grid');
+            if (lastPipelineResult.composites && lastPipelineResult.composites.length > 0) {
+                grid.innerHTML = lastPipelineResult.composites.map(c => `
+                    <div class="bg-white rounded-xl border border-cream-200 overflow-hidden shadow-sm">
+                        <div class="grid grid-cols-3 gap-1 p-1">
+                            ${c.variations.map(v => `
+                                <div class="aspect-square rounded-lg overflow-hidden bg-cream-100 cursor-pointer" onclick="openLightbox('${v.path || ''}', '${c.venue_id.slice(-8)} — ${v.position}')">
+                                    ${v.path ? `<img src="${v.path}" class="w-full h-full object-cover hover:scale-110 transition duration-500">` : '<div class="w-full h-full flex items-center justify-center text-gray-400 text-xs">—</div>'}
+                                </div>
+                            `).join('')}
+                        </div>
+                        <div class="p-3">
+                            <div class="text-sm font-semibold text-forest">${c.venue_id.slice(-8)}</div>
+                            <div class="text-xs text-gray-500">${c.variations.length} variations</div>
+                        </div>
+                    </div>
+                `).join('');
+            } else {
+                grid.innerHTML = '<div class="col-span-full text-center text-gray-500 py-8">No composites in this run</div>';
+            }
+
+            document.getElementById('result-modal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeResultModal() {
+            document.getElementById('result-modal').classList.add('hidden');
+            if (document.getElementById('lightbox').classList.contains('hidden')) {
+                document.body.style.overflow = '';
+            }
+        }
+
+        // Close modals on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeLightbox();
+                closeResultModal();
+            }
+        });
+
+        // ------------------------------------------------------------------
+        // Load stats
+        // ------------------------------------------------------------------
+        async function loadStats() {
+            try {
+                const res = await fetch('/api/demo');
+                const data = await res.json();
+                const summary = data.pipeline_summary || {};
+                const grid = document.getElementById('stats-grid');
+                const stats = [
+                    { label: 'Candidates Found', value: summary.candidates_found || 50 },
+                    { label: 'With SV=100', value: summary.candidates_with_sv100 || 27, color: 'text-sage-600' },
+                    { label: 'SV Images', value: summary.sv_images_acquired || 10, color: 'text-sage-600' },
+                    { label: 'Passed QA', value: summary.sv_passed_qa || 3, color: 'text-green-600' },
+                    { label: 'Failed QA', value: summary.sv_failed_qa || 7, color: 'text-clay' },
+                    { label: 'Composites', value: summary.composites_produced || 3, color: 'text-forest' },
+                ];
+                grid.innerHTML = stats.map(s => `
+                    <div class="bg-cream-50 rounded-xl p-5 text-center hover:shadow-md transition">
+                        <div class="text-3xl font-bold ${s.color || 'text-forest'}">${s.value}</div>
+                        <div class="text-sm text-gray-500 mt-1">${s.label}</div>
+                    </div>
+                `).join('');
+            } catch (err) {
+                console.error('Failed to load stats:', err);
+            }
+        }
+
+        // Init
+        document.addEventListener('DOMContentLoaded', () => {
+            loadDemoVenues();
+            loadStats();
+        });
+    </script>
+</body>
+</html>

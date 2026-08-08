@@ -1,0 +1,62 @@
+{
+  "place_id": "ChIJG5vQxp4HdkgRmL3BBxvxmtA",
+  "status": "success",
+  "websiteUri": null,
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJG5vQxp4HdkgRmL3BBxvxmtA\\a56e5689ea92.jpg",
+    "size_bytes": 72741,
+    "name": "places/ChIJG5vQxp4HdkgRmL3BBxvxmtA/photos/AWCwydgMQLRLsdKNXyka8zkDWT2o5mT3gyjNvQxLynL4ZKtPBAOQZ3JxLUSFF5L9PnWAK7zCnvPN6qvPNoearJYrwjbhs7fUZinPuKXe9Tk3bz6sVEkRQVAcTWfy2pUqMWZgqMHAcy2XZ0TioleO8ITY5XAYGbrl54-nwXwsn0y0PqHU5gMlHQMVLItzitgSpGL2XshrbgFm-zkK6Ujvh77NkyljQkgSroVGJZ8euMl-deq6FVvxBFhXjOx35kG_dhZdkxbmi8GVqDhJXfk2js0aEJmO2OyBsVszJSevyZZqJrgeU7e1h8EXjU1XM2tG-N-MxKyzWHNUVXtikPFhXw7I86IxZUnjCl1f9sZeK8m-6-a01kOh4qjtVI536zKKwT3k92wVDzkTk6ZfjKo1yel-a1iD6nmz3YnbBVdp29QizgeTkWw",
+    "tier1_score": 15.01,
+    "aspect_ratio": 1.5,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.388,
+    "analyzed_width": 640,
+    "analyzed_height": 426,
+    "tier2_score": 36.77
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJG5vQxp4HdkgRmL3BBxvxmtA\\a56e5689ea92.jpg",
+      "size_bytes": 72741,
+      "name": "places/ChIJG5vQxp4HdkgRmL3BBxvxmtA/photos/AWCwydgMQLRLsdKNXyka8zkDWT2o5mT3gyjNvQxLynL4ZKtPBAOQZ3JxLUSFF5L9PnWAK7zCnvPN6qvPNoearJYrwjbhs7fUZinPuKXe9Tk3bz6sVEkRQVAcTWfy2pUqMWZgqMHAcy2XZ0TioleO8ITY5XAYGbrl54-nwXwsn0y0PqHU5gMlHQMVLItzitgSpGL2XshrbgFm-zkK6Ujvh77NkyljQkgSroVGJZ8euMl-deq6FVvxBFhXjOx35kG_dhZdkxbmi8GVqDhJXfk2js0aEJmO2OyBsVszJSevyZZqJrgeU7e1h8EXjU1XM2tG-N-MxKyzWHNUVXtikPFhXw7I86IxZUnjCl1f9sZeK8m-6-a01kOh4qjtVI536zKKwT3k92wVDzkTk6ZfjKo1yel-a1iD6nmz3YnbBVdp29QizgeTkWw",
+      "tier1_score": 15.01,
+      "aspect_ratio": 1.5,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.388,
+      "analyzed_width": 640,
+      "analyzed_height": 426,
+      "tier2_score": 36.77
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJG5vQxp4HdkgRmL3BBxvxmtA\\235b2fc00d9b.jpg",
+      "size_bytes": 51078,
+      "name": "places/ChIJG5vQxp4HdkgRmL3BBxvxmtA/photos/AWCwydioRxc65Xo1RwsdcGCteCnP6ZUPCetAHsayQ_o46iFkhSR1H4ph7z4Q-DWSeVAHsP_sobk4P67OVM7kxJbu2SshU_h2qWKO0CEtQRFbPMx9qBiXT-rWYvw795a-TVpjkMmC6SoKlAkIKoWPUvAhN1PkD4zgXiIRrx3LIZuEE6kjTxM4MsmoIyVCt89qRBLzjLBXp3tRC-Dk_MSHxNsR-4g1XcfmighrlSmqazjVODMLc4yZQdinfWtigJk9Zmnml4hZM9mc3gKmP1RkqVVdFDp5evewO3q4MS7FJoqrtz_pLZgkPKWZ_kJ99FRwqmw_Ns1MpnbWA-PQpOyYIpElJWmculuDP71HFVcG6R_-STQvThR-b3vY-mgY7s-FHiwymvY32nSnAYAFSkjabn0h7FBIJR4Bj_UabeeePk-EarGT82Jt",
+      "tier1_score": 15.01,
+      "aspect_ratio": 1.5,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.23,
+      "analyzed_width": 640,
+      "analyzed_height": 426,
+      "tier2_score": 33.61
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJG5vQxp4HdkgRmL3BBxvxmtA\\9d97a1be3005.jpg",
+      "size_bytes": 121083,
+      "name": "places/ChIJG5vQxp4HdkgRmL3BBxvxmtA/photos/AWCwydgAOns5LtWPM69S0TlJIZ2oOqhX3D-ZcpUa6DwUQ5SJ24d-9aG9m2GJhZ1g2E1SU-JSZ3WrDmrbvQUH_21i72Cmmei-FR6BGjEK28ukZUGVP-1FgbtjPmpyroF9TECcxMuyUiQvqULUDGgvDOfr9LITY4Uk7XdfqoHqK_sSpL_2ywBZrMTj_UtU7yP5hY_vEq95Y26jTkWKWBWI8EGU88-CKmMb1UhcyynmdzF5TxNtIe8ICRA08gPG2yTBxpkKQsg_Z9r0-_MZm5AIrguyVGD4BW4BLcc7HLPigx7_Uk7pRhE6Op2Bzm4WRroQiiCUxxxmnEnq6Ak8Fk04KZeR97G-5grzEjjeiSKYEDCoOuLq694DFx8djUbamHzREOTiF6wQ9NLCB3nO-yrw2GXk9d6vCFbIe9cU0ZguxbxmZWChQQ",
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.275,
+      "analyzed_width": 640,
+      "analyzed_height": 480,
+      "tier2_score": 33.5
+    }
+  ],
+  "downloaded_count": 3,
+  "fetched_at": "2026-08-08T12:05:32Z"
+}

@@ -1,0 +1,102 @@
+{
+  "ChIJK8Bb9WcLdkgRrUZC97T0XWQ": {
+    "name": "Deer Cafe Bistro Kingston",
+    "websiteUri": "http://www.deercafekingston.com/",
+    "business_status": "tier1_rejected"
+  },
+  "ChIJA3NOoqsHdkgReHOikJIlCXg": {
+    "name": "Chaachi's",
+    "websiteUri": "https://www.instagram.com/chaachis.norbury?igsh=MW15ajZraThsa2RrNQ==",
+    "business_status": "tier1_rejected"
+  },
+  "ChIJAdrq478LdkgRbIQdZ-jtDAs": {
+    "name": "Fortunella Caf\u00e9",
+    "websiteUri": "http://www.fortunella.co.uk/",
+    "business_status": "success"
+  },
+  "ChIJlQnywv8LdkgRwWZibL7VXLI": {
+    "name": "Eleana\u2019s",
+    "websiteUri": "http://eleanasbistro.co.uk/",
+    "business_status": "success"
+  },
+  "ChIJJ3AGi7YLdkgRYrRCCnTmMlk": {
+    "name": "The French Tarte",
+    "websiteUri": "https://www.thefrenchtarte.co.uk/",
+    "business_status": "success"
+  },
+  "ChIJu46vWr8LdkgR1bOGMBoMl50": {
+    "name": "Surbeanton",
+    "websiteUri": "http://www.surbeanton.com/",
+    "business_status": "success"
+  },
+  "ChIJ8ZKYKfALdkgRCIKqvNsYDWU": {
+    "name": "GAIL's Bakery Kingston-upon-Thames",
+    "websiteUri": "https://gails.com/pages/kingston",
+    "business_status": "success"
+  },
+  "ChIJA5PfGEALdkgRmSwijMUi3_8": {
+    "name": "Lion Gate Caf\u00e9",
+    "websiteUri": "https://www.liongatecafe.co.uk/",
+    "business_status": "success"
+  },
+  "ChIJR6kvFRELdkgR7deUVt8nLws": {
+    "name": "Mada Deli",
+    "websiteUri": "http://madadeli.co.uk/",
+    "business_status": "success"
+  },
+  "ChIJp_wEtEAGdkgRev5b74Ls4N8": {
+    "name": "Cravings Cafe",
+    "websiteUri": null,
+    "business_status": "success"
+  },
+  "ChIJc-sXeikHdkgRCHLSheKEISE": {
+    "name": "Chaiiwala",
+    "websiteUri": "https://www.chaiiwala.co.uk/",
+    "business_status": "success"
+  },
+  "ChIJIekCn-sGdkgRqbG6WbLYcLM": {
+    "name": "Norbury Caf\u00e9 & Restaurant",
+    "websiteUri": null,
+    "business_status": "success"
+  },
+  "ChIJYceW_rMHdkgRLQTudg_LoW0": {
+    "name": "Pop In Cafe",
+    "websiteUri": "http://pop-in-cafe-mitcham.edan.io/",
+    "business_status": "success"
+  },
+  "ChIJCddVuqYIdkgRzPkoyYCp7W4": {
+    "name": "CAFE SW19",
+    "websiteUri": null,
+    "business_status": "success"
+  },
+  "ChIJK9OuDRELdkgRcJoSR01KLgc": {
+    "name": "Canela Cafe",
+    "websiteUri": "https://canelacafe.co.uk/",
+    "business_status": "success"
+  },
+  "ChIJO7kv3C8JdkgRBkak0OPYaOA": {
+    "name": "601pm",
+    "websiteUri": "https://www.instagram.com/cafe601pm",
+    "business_status": "success"
+  },
+  "ChIJG5vQxp4HdkgRmL3BBxvxmtA": {
+    "name": "Top Coffee",
+    "websiteUri": null,
+    "business_status": "success"
+  },
+  "ChIJ7Tbv694JdkgRRbaPukHaI5c": {
+    "name": "Cafe Hanok",
+    "websiteUri": "https://hanokinlondon.co.uk/",
+    "business_status": "success"
+  },
+  "ChIJcYuV5IIIdkgRCcMUaKuL5-s": {
+    "name": "Sunshine Cafe (MORDEN)",
+    "websiteUri": "http://sun-shine-cafe.edan.io/",
+    "business_status": "success"
+  },
+  "ChIJBW5yoEAGdkgRhjDKAniohzI": {
+    "name": "Tag Elezz Cafe Mitcham",
+    "websiteUri": "https://www.just-eat.co.uk/restaurants-tagelezzcafemitcham-mitcham/menu",
+    "business_status": "success"
+  }
+}

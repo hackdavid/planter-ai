@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJR6kvFRELdkgR7deUVt8nLws",
+  "place_id": "ChIJR6kvFRELdkgR7deUVt8nLws",
+  "name": "Mada Deli",
+  "address": "11-13 Bridge Rd, Molesey, East Molesey KT8 9EU, UK",
+  "lat": 51.4028912,
+  "lng": -0.3441899,
+  "panorama_lat": 51.40285566192961,
+  "panorama_lng": -0.3440859936650383,
+  "computed_bearing": 298.73,
+  "primary_heading": 299,
+  "validation_heading": 319,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 8.2,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:06Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

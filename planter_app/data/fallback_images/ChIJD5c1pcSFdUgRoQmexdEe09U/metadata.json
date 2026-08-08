@@ -1,0 +1,97 @@
+{
+  "place_id": "ChIJD5c1pcSFdUgRoQmexdEe09U",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "https://neeko.co.uk/",
+  "candidate_count": 11,
+  "candidates": [
+    {
+      "source": "website",
+      "path": "https://neeko.co.uk/wp-content/uploads/2026/07/ChatGPT-Image-Jul-3-2026-01_03_24-AM-1.png",
+      "tier2_score": 35.78,
+      "tier1_score": 25.0,
+      "aspect_ratio": 3.0
+    },
+    {
+      "source": "website",
+      "path": "https://neeko.co.uk/wp-content/uploads/2026/07/ChatGPT-Image-Jul-3-2026-01_03_24-AM-1.png",
+      "tier2_score": 35.78,
+      "tier1_score": 25.0,
+      "aspect_ratio": 3.0
+    },
+    {
+      "source": "website",
+      "path": "https://neeko.co.uk/wp-content/uploads/2026/07/ChatGPT-Image-Jul-3-2026-01_03_24-AM-1.png",
+      "tier2_score": 35.78,
+      "tier1_score": 25.0,
+      "aspect_ratio": 3.0
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJD5c1pcSFdUgRoQmexdEe09U\\6dd74c1d3cd4.jpg",
+      "tier2_score": 33.66,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "https://neeko.co.uk/wp-content/uploads/2025/12/DSC00520.jpg",
+      "tier2_score": 30.12,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://neeko.co.uk/wp-content/uploads/2025/12/Screenshot-2025-12-08-at-5.46.29\u202fPM.png",
+      "tier2_score": 27.66,
+      "tier1_score": 12.7,
+      "aspect_ratio": 1.77
+    },
+    {
+      "source": "website",
+      "path": "https://neeko.co.uk/wp-content/uploads/2026/07/ChatGPT-Image-Jul-3-2026-12_53_44-AM-1.png",
+      "tier2_score": 25.48,
+      "tier1_score": 8.3,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "https://neeko.co.uk/wp-content/uploads/2026/07/ChatGPT-Image-Jul-3-2026-12_53_44-AM-1.png",
+      "tier2_score": 25.48,
+      "tier1_score": 8.3,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "https://neeko.co.uk/wp-content/uploads/2026/07/ChatGPT-Image-Jul-3-2026-12_53_44-AM-1.png",
+      "tier2_score": 25.48,
+      "tier1_score": 8.3,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "https://neeko.co.uk/wp-content/uploads/2026/07/ChatGPT-Image-Jul-3-2026-12_53_44-AM-1.png",
+      "tier2_score": 25.48,
+      "tier1_score": 8.3,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "https://neeko.co.uk/wp-content/plugins/revslider/sr6/assets/assets/dummy.png",
+      "tier2_score": 9.0,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    }
+  ],
+  "best_candidate": {
+    "source": "website",
+    "path": "https://neeko.co.uk/wp-content/uploads/2026/07/ChatGPT-Image-Jul-3-2026-01_03_24-AM-1.png",
+    "tier2_score": 35.78,
+    "tier1_score": 25.0,
+    "aspect_ratio": 3.0
+  },
+  "sources": {
+    "business_photos_count": 1,
+    "website_count": 10
+  }
+}

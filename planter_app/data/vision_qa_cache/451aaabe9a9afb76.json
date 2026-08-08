@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "confidence": 0.95,
+  "reason": "The image clearly shows the unobstructed street-level exterior front of an independent caf\u00e9/restaurant named Cravings without any existing planters.",
+  "model": "gemini-3.5-flash-lite",
+  "image_path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\images\\ChIJp_wEtEAGdkgRev5b74Ls4N8\\streetview_primary_46.jpg"
+}

@@ -1,0 +1,48 @@
+{
+  "place_id": "ChIJI6-5PrAOdkgRScuURtIwrpU",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "https://www.royalparks.org.uk/parks/richmond-park/food-and-drink/refreshment-points-in-richmond-park",
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJI6-5PrAOdkgRScuURtIwrpU\\cf47cefd4a19.jpg",
+      "tier2_score": 34.83,
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJI6-5PrAOdkgRScuURtIwrpU\\673c2c4a66f3.jpg",
+      "tier2_score": 34.08,
+      "tier1_score": 15.06,
+      "aspect_ratio": 1.51
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJI6-5PrAOdkgRScuURtIwrpU\\4d82540061cf.jpg",
+      "tier2_score": 31.62,
+      "tier1_score": 16.67,
+      "aspect_ratio": 1.67
+    },
+    {
+      "source": "website",
+      "path": "https://www.royalparks.org.uk/sites/default/files/2026-05/Lottery_Web_Sum26_1440x960_01C.png",
+      "tier2_score": 29.94,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJI6-5PrAOdkgRScuURtIwrpU\\cf47cefd4a19.jpg",
+    "tier2_score": 34.83,
+    "tier1_score": 17.78,
+    "aspect_ratio": 1.78
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 1
+  }
+}

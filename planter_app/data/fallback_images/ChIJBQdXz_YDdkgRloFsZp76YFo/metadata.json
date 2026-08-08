@@ -1,0 +1,41 @@
+{
+  "place_id": "ChIJBQdXz_YDdkgRloFsZp76YFo",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "https://www.nolacoffee.co.uk/",
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJBQdXz_YDdkgRloFsZp76YFo\\837deeb27f06.jpg",
+      "tier2_score": 36.96,
+      "tier1_score": 17.76,
+      "aspect_ratio": 1.78
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJBQdXz_YDdkgRloFsZp76YFo\\8788412702e0.jpg",
+      "tier2_score": 35.29,
+      "tier1_score": 14.99,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJBQdXz_YDdkgRloFsZp76YFo\\1b236c9fd6bb.jpg",
+      "tier2_score": 29.64,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJBQdXz_YDdkgRloFsZp76YFo\\837deeb27f06.jpg",
+    "tier2_score": 36.96,
+    "tier1_score": 17.76,
+    "aspect_ratio": 1.78
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 0
+  }
+}

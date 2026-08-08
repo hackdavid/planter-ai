@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJ7Tbv694JdkgRRbaPukHaI5c",
+  "place_id": "ChIJ7Tbv694JdkgRRbaPukHaI5c",
+  "name": "Cafe Hanok",
+  "address": "203 Kingston Rd, New Malden KT3 3SS, UK",
+  "lat": 51.4031573,
+  "lng": -0.2730364,
+  "panorama_lat": 51.40305960999662,
+  "panorama_lng": -0.2731337941544871,
+  "computed_bearing": 31.88,
+  "primary_heading": 32,
+  "validation_heading": 52,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 12.8,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:14Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

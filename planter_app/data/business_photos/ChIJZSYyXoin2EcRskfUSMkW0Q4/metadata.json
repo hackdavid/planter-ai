@@ -1,0 +1,62 @@
+{
+  "place_id": "ChIJZSYyXoin2EcRskfUSMkW0Q4",
+  "status": "success",
+  "websiteUri": "http://www.dlitepizza.com/",
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJZSYyXoin2EcRskfUSMkW0Q4\\9b7084fa85d8.jpg",
+    "size_bytes": 129385,
+    "name": "places/ChIJZSYyXoin2EcRskfUSMkW0Q4/photos/AWCwydg0rmItGQUP71GXIZgXj96pA7YxoJyAx6VXt3toEWHp2oQwsgD0VnCYaiiw5DEpg-nECl9ZG5CaSwqhm9kFM-veIJdWyOMLfyzEMLmOdCfa_YQmsPVviEcptVUTQOYD0-HUTMG8RZdd71B7CVRAZgKKnbniIPb6k1L5xXaQ4blQVGXSgCvnU8vV3gamdWwBwi6fudKl8LYyr3YM5yBLei2ziRPmp1ofagfGDwpaceOGTGiW-OPU3Xo6XZwiUQAOaLOhXvtHMptXBRa9qzMQoG8Djd0GERpG8CIiWKtz8rLYbUJlwmYj7Wdw9NO2p4oZ6dq-vomBgLWgDCW8NEo4qzM8CeHyCM92TlbJS3Ry8VUGpG3IhL0_eHwMwtF4uz9HadU83fG6dD4aMYfKftv16A8AJLlJxPPwO_LanqBHO3SJ5A",
+    "tier1_score": 15.0,
+    "aspect_ratio": 1.5,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.504,
+    "analyzed_width": 640,
+    "analyzed_height": 427,
+    "tier2_score": 39.08
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJZSYyXoin2EcRskfUSMkW0Q4\\9b7084fa85d8.jpg",
+      "size_bytes": 129385,
+      "name": "places/ChIJZSYyXoin2EcRskfUSMkW0Q4/photos/AWCwydg0rmItGQUP71GXIZgXj96pA7YxoJyAx6VXt3toEWHp2oQwsgD0VnCYaiiw5DEpg-nECl9ZG5CaSwqhm9kFM-veIJdWyOMLfyzEMLmOdCfa_YQmsPVviEcptVUTQOYD0-HUTMG8RZdd71B7CVRAZgKKnbniIPb6k1L5xXaQ4blQVGXSgCvnU8vV3gamdWwBwi6fudKl8LYyr3YM5yBLei2ziRPmp1ofagfGDwpaceOGTGiW-OPU3Xo6XZwiUQAOaLOhXvtHMptXBRa9qzMQoG8Djd0GERpG8CIiWKtz8rLYbUJlwmYj7Wdw9NO2p4oZ6dq-vomBgLWgDCW8NEo4qzM8CeHyCM92TlbJS3Ry8VUGpG3IhL0_eHwMwtF4uz9HadU83fG6dD4aMYfKftv16A8AJLlJxPPwO_LanqBHO3SJ5A",
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.504,
+      "analyzed_width": 640,
+      "analyzed_height": 427,
+      "tier2_score": 39.08
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJZSYyXoin2EcRskfUSMkW0Q4\\9cca07f962af.jpg",
+      "size_bytes": 57405,
+      "name": "places/ChIJZSYyXoin2EcRskfUSMkW0Q4/photos/AWCwydh2MM_BtrP09NQKyAsy7clvvZHWb5alLcWmX2iNJsVs7Lv5oK8KHRRo6Al7Mgp0JkcPwrXztTl1PIpYM1L6xPvkqJnPjwVKXpX4cLvaVpGO31wFg3g3tqnOR-vHgrWgG278VpKEcZySdtrFF3IQ6SbjivWeNeoCPZWMhQ6RByejUOJlA7T4UPzgybEwzdyKRIIzeeq9O8lhXnfvkITaa_0RyptD2bIg8058ciwlzfcyHz1J49ytUdMV1RCvrb1H6H5CvNSpg_d4CUQ2ndElB21cysc_uu8H5oIWIxlfBUVpCRBymR8Im1tr8-rffAT_iVQReZT6jQ10y6G2xu8O8pDy5YMi59jHjROzFjRSxBeRyp40gLpkKFKSJuZkHrct5jL8_TdNpKefGgNl4KoXYdft-4FQNX-y2tFSm--Oo9ePLKivyIm4nY86WSVD8wcZ",
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.214,
+      "analyzed_width": 640,
+      "analyzed_height": 360,
+      "tier2_score": 34.95
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJZSYyXoin2EcRskfUSMkW0Q4\\548aa30ed40c.jpg",
+      "size_bytes": 83749,
+      "name": "places/ChIJZSYyXoin2EcRskfUSMkW0Q4/photos/AWCwydj1TwdEKmSQwZe1FqrUozweoq8B27OgSFE3QOJVdEAes6tpiBxHBllJRhlrLdsJ8gE8nMgB8KS6_TECYIYbfWSxi83RDN-SD6BbkKCCuAtUZ7rxlaMoRQsQz-lzyu2n883PYZKBW40W7xxBMTsxRTn5MFOc0-iDLxXxG5XwEmCC18etUuxH-BS7AlPQuXMUA0J8ANjlzHPRxk4qQmJcQGU7ZXLaHjf0IBV2ZZM8G0sTYTWizqHbqphEjnieZ_o4V7iBdTZZzOOiswzKDt-j0YrvnKc22PpNVw0vn6mZJ1lLOJxJ5Jl_n8smfvZ_qARV-w2vI94yg12Z_sJcomHachQQf9dD0FsVx7DWem4OH6VXfj0sbi-tFFMAuDlDKWh-NpznPkeQPrp-7FkDFNQAXdhnwdqy14LFpNLrQhVLDbANDg",
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.244,
+      "analyzed_width": 640,
+      "analyzed_height": 480,
+      "tier2_score": 32.88
+    }
+  ],
+  "downloaded_count": 3,
+  "fetched_at": "2026-08-08T13:03:15Z"
+}

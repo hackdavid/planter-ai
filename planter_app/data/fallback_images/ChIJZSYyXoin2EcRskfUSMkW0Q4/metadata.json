@@ -1,0 +1,41 @@
+{
+  "place_id": "ChIJZSYyXoin2EcRskfUSMkW0Q4",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://www.dlitepizza.com/",
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJZSYyXoin2EcRskfUSMkW0Q4\\9b7084fa85d8.jpg",
+      "tier2_score": 39.08,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJZSYyXoin2EcRskfUSMkW0Q4\\9cca07f962af.jpg",
+      "tier2_score": 34.95,
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJZSYyXoin2EcRskfUSMkW0Q4\\548aa30ed40c.jpg",
+      "tier2_score": 32.88,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJZSYyXoin2EcRskfUSMkW0Q4\\9b7084fa85d8.jpg",
+    "tier2_score": 39.08,
+    "tier1_score": 15.0,
+    "aspect_ratio": 1.5
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 0
+  }
+}

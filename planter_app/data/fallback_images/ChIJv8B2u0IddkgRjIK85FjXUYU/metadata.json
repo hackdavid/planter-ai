@@ -1,0 +1,111 @@
+{
+  "place_id": "ChIJv8B2u0IddkgRjIK85FjXUYU",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://www.theviewtube.co.uk/",
+  "candidate_count": 13,
+  "candidates": [
+    {
+      "source": "website",
+      "path": "https://theviewtube.co.uk/wp-content/uploads/2020/03/IMG_1915-1000x665.jpg",
+      "tier2_score": 38.74,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://theviewtube.co.uk/wp-content/uploads/2019/12/IMG_9726-1000x665.jpg",
+      "tier2_score": 38.0,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://theviewtube.co.uk/wp-content/uploads/2021/04/DSC_0027-1000x665.jpg",
+      "tier2_score": 36.74,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://theviewtube.co.uk/wp-content/uploads/2019/11/Snapseed-71-1000x665.jpg",
+      "tier2_score": 36.6,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJv8B2u0IddkgRjIK85FjXUYU\\6b09a28d6ce7.jpg",
+      "tier2_score": 36.58,
+      "tier1_score": 15.06,
+      "aspect_ratio": 1.51
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJv8B2u0IddkgRjIK85FjXUYU\\82c762791639.jpg",
+      "tier2_score": 36.15,
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78
+    },
+    {
+      "source": "website",
+      "path": "https://theviewtube.co.uk/wp-content/uploads/2017/04/2017-03-03-10.21.30-1000x665.jpg",
+      "tier2_score": 35.08,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://theviewtube.co.uk/wp-content/uploads/2017/04/bikes-1000x665.jpg",
+      "tier2_score": 34.46,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJv8B2u0IddkgRjIK85FjXUYU\\d5ad439626a2.jpg",
+      "tier2_score": 33.84,
+      "tier1_score": 15.06,
+      "aspect_ratio": 1.51
+    },
+    {
+      "source": "website",
+      "path": "https://theviewtube.co.uk/wp-content/uploads/2017/04/File_000-3-1000x665.jpeg",
+      "tier2_score": 33.66,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://theviewtube.co.uk/wp-content/uploads/2021/04/DSC_0508-1000x665.jpg",
+      "tier2_score": 33.16,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://theviewtube.co.uk/wp-content/uploads/2015/10/VT-1-1-1000x665.jpg",
+      "tier2_score": 32.5,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://theviewtube.co.uk/wp-content/uploads/2015/10/header-1000x665.jpg",
+      "tier2_score": 31.54,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    }
+  ],
+  "best_candidate": {
+    "source": "website",
+    "path": "https://theviewtube.co.uk/wp-content/uploads/2020/03/IMG_1915-1000x665.jpg",
+    "tier2_score": 38.74,
+    "tier1_score": 15.0,
+    "aspect_ratio": 1.5
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 10
+  }
+}

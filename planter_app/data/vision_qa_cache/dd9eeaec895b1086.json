@@ -1,0 +1,7 @@
+{
+  "pass": false,
+  "confidence": 1.0,
+  "reason": "The image shows the interior of the venue rather than the street-facing exterior frontage.",
+  "model": "gemini-3.5-flash-lite",
+  "image_path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\images\\ChIJK8Bb9WcLdkgRrUZC97T0XWQ\\streetview_primary_199.jpg"
+}

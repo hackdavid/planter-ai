@@ -1,0 +1,69 @@
+{
+  "place_id": "ChIJEQdpO1cadkgR1xu0Z3XwhgQ",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://www.bistrolaz.com/",
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJEQdpO1cadkgR1xu0Z3XwhgQ\\6b574f010c4f.jpg",
+      "tier2_score": 36.16,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "https://bistrolaz.com/wp-content/uploads/bistrolaz_ing_01.jpg",
+      "tier2_score": 35.34,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "http://bistrolaz.com/wp-content/uploads/bistrolaz_ing_01.jpg",
+      "tier2_score": 35.34,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJEQdpO1cadkgR1xu0Z3XwhgQ\\30bde66d9121.jpg",
+      "tier2_score": 34.61,
+      "tier1_score": 13.62,
+      "aspect_ratio": 1.36
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJEQdpO1cadkgR1xu0Z3XwhgQ\\704829475f8b.jpg",
+      "tier2_score": 33.9,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "https://bistrolaz.com/wp-content/uploads/logo-1.png",
+      "tier2_score": 30.92,
+      "tier1_score": 10.6,
+      "aspect_ratio": 1.56
+    },
+    {
+      "source": "website",
+      "path": "https://bistrolaz.com/wp-content/uploads/logo-1.png",
+      "tier2_score": 30.92,
+      "tier1_score": 10.6,
+      "aspect_ratio": 1.56
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJEQdpO1cadkgR1xu0Z3XwhgQ\\6b574f010c4f.jpg",
+    "tier2_score": 36.16,
+    "tier1_score": 13.33,
+    "aspect_ratio": 1.33
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 4
+  }
+}

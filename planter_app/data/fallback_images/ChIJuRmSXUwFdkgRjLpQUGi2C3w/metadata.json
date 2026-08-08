@@ -1,0 +1,55 @@
+{
+  "place_id": "ChIJuRmSXUwFdkgRjLpQUGi2C3w",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://www.guillam.co.uk/",
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "source": "website",
+      "path": "http://guillam.co.uk/cdn/shop/files/Bayswater_Location.webp?v=1773397185&width=480",
+      "tier2_score": 42.44,
+      "tier1_score": 26.3,
+      "aspect_ratio": 2.13
+    },
+    {
+      "source": "website",
+      "path": "http://guillam.co.uk/cdn/shop/files/quality_coffee.jpg?v=1708355005&width=480",
+      "tier2_score": 35.1,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJuRmSXUwFdkgRjLpQUGi2C3w\\af6228982555.jpg",
+      "tier2_score": 34.22,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJuRmSXUwFdkgRjLpQUGi2C3w\\f796fe05fe0c.jpg",
+      "tier2_score": 33.59,
+      "tier1_score": 15.22,
+      "aspect_ratio": 1.52
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJuRmSXUwFdkgRjLpQUGi2C3w\\d623e4616657.jpg",
+      "tier2_score": 32.9,
+      "tier1_score": 15.03,
+      "aspect_ratio": 1.5
+    }
+  ],
+  "best_candidate": {
+    "source": "website",
+    "path": "http://guillam.co.uk/cdn/shop/files/Bayswater_Location.webp?v=1773397185&width=480",
+    "tier2_score": 42.44,
+    "tier1_score": 26.3,
+    "aspect_ratio": 2.13
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJO7kv3C8JdkgRBkak0OPYaOA",
+  "place_id": "ChIJO7kv3C8JdkgRBkak0OPYaOA",
+  "name": "601pm",
+  "address": "38 High St, New Malden KT3 4HE, UK",
+  "lat": 51.4022112,
+  "lng": -0.2561614,
+  "panorama_lat": 51.40217016335376,
+  "panorama_lng": -0.2562943489291558,
+  "computed_bearing": 63.67,
+  "primary_heading": 64,
+  "validation_heading": 84,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 10.3,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:13Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

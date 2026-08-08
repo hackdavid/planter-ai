@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJ8ZKYKfALdkgRCIKqvNsYDWU",
+  "place_id": "ChIJ8ZKYKfALdkgRCIKqvNsYDWU",
+  "name": "GAIL's Bakery Kingston-upon-Thames",
+  "address": "3-5 Church St, Kingston upon Thames KT1 1RW, UK",
+  "lat": 51.410192599999995,
+  "lng": -0.3055692,
+  "panorama_lat": 51.41016628934042,
+  "panorama_lng": -0.305483254776557,
+  "computed_bearing": 296.14,
+  "primary_heading": 296,
+  "validation_heading": 316,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 6.6,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:05Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

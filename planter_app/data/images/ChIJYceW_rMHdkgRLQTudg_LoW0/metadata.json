@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJYceW_rMHdkgRLQTudg_LoW0",
+  "place_id": "ChIJYceW_rMHdkgRLQTudg_LoW0",
+  "name": "Pop In Cafe",
+  "address": "257 London Rd, Mitcham CR4 3NH, UK",
+  "lat": 51.404474699999994,
+  "lng": -0.1646618,
+  "panorama_lat": 51.40446856528938,
+  "panorama_lng": -0.1647931410282673,
+  "computed_bearing": 85.72,
+  "primary_heading": 86,
+  "validation_heading": 106,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 9.1,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:10Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

@@ -1,0 +1,13 @@
+{
+  "place_id": "ChIJA3NOoqsHdkgReHOikJIlCXg",
+  "status": "no_candidates",
+  "reason": "Neither Business Photos nor website yielded usable images",
+  "websiteUri": "https://www.instagram.com/chaachis.norbury?igsh=MW15ajZraThsa2RrNQ==",
+  "candidate_count": 0,
+  "candidates": [],
+  "best_candidate": null,
+  "sources": {
+    "business_photos_count": 0,
+    "website_count": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "place_id": "ChIJF8R_7LuFdUgR44NtgLboYyU",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://www.openbakery.co.uk/",
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJF8R_7LuFdUgR44NtgLboYyU\\1e486e3b174f.jpg",
+      "tier2_score": 36.91,
+      "tier1_score": 15.01,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJF8R_7LuFdUgR44NtgLboYyU\\357df5d2ba3c.jpg",
+      "tier2_score": 34.39,
+      "tier1_score": 15.08,
+      "aspect_ratio": 1.51
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJF8R_7LuFdUgR44NtgLboYyU\\8c04c55b3691.jpg",
+      "tier2_score": 34.27,
+      "tier1_score": 16.41,
+      "aspect_ratio": 1.64
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJF8R_7LuFdUgR44NtgLboYyU\\1e486e3b174f.jpg",
+    "tier2_score": 36.91,
+    "tier1_score": 15.01,
+    "aspect_ratio": 1.5
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 0
+  }
+}

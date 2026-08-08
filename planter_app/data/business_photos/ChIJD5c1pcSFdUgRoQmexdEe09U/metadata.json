@@ -1,0 +1,36 @@
+{
+  "place_id": "ChIJD5c1pcSFdUgRoQmexdEe09U",
+  "status": "success",
+  "websiteUri": "https://neeko.co.uk/",
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJD5c1pcSFdUgRoQmexdEe09U\\6dd74c1d3cd4.jpg",
+    "size_bytes": 100414,
+    "name": "places/ChIJD5c1pcSFdUgRoQmexdEe09U/photos/AWCwydjqMuOGJbHPVh6EIipzjg4Cx7gB7eJv_PXePlNzMsqQMA_vgC-x0jlhBMac5oymF1bZAr7dFrVi5VbmlzDtoKNX6dP-64QEZy_KRMgr_uPv_jVUlxSlOfNj6P6Him1vGKoAt_NmwcQHICWbphmfserg8H7droeP5zPEyNS5Gl5wy9PnDyWtDf0J5Htz4y_mxu3oZztP9UokGhiKvcu6NvVGJAXKuQy6mdCkErZ9HJ6nW6Xb2zGiU6ABPYXpISwigDEDxcY4d0q3byJsd-tiv28MEHC8AM6A6wSPEV9eD404k5w5gBdy6IIjjgBH1N03NcxedUmC_ob3Ozw3iY_IbHEd97bCrBwB6yM3mleVixND4yUW_Ve8gtBcA2Br51seDkDV5Y5uOlHzcnVIk-NR3ppsLET9uWcBSteXc_gR--Hyh105A6ODdzxHPeT2viwz",
+    "tier1_score": 13.33,
+    "aspect_ratio": 1.33,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.283,
+    "analyzed_width": 640,
+    "analyzed_height": 480,
+    "tier2_score": 33.66
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJD5c1pcSFdUgRoQmexdEe09U\\6dd74c1d3cd4.jpg",
+      "size_bytes": 100414,
+      "name": "places/ChIJD5c1pcSFdUgRoQmexdEe09U/photos/AWCwydjqMuOGJbHPVh6EIipzjg4Cx7gB7eJv_PXePlNzMsqQMA_vgC-x0jlhBMac5oymF1bZAr7dFrVi5VbmlzDtoKNX6dP-64QEZy_KRMgr_uPv_jVUlxSlOfNj6P6Him1vGKoAt_NmwcQHICWbphmfserg8H7droeP5zPEyNS5Gl5wy9PnDyWtDf0J5Htz4y_mxu3oZztP9UokGhiKvcu6NvVGJAXKuQy6mdCkErZ9HJ6nW6Xb2zGiU6ABPYXpISwigDEDxcY4d0q3byJsd-tiv28MEHC8AM6A6wSPEV9eD404k5w5gBdy6IIjjgBH1N03NcxedUmC_ob3Ozw3iY_IbHEd97bCrBwB6yM3mleVixND4yUW_Ve8gtBcA2Br51seDkDV5Y5uOlHzcnVIk-NR3ppsLET9uWcBSteXc_gR--Hyh105A6ODdzxHPeT2viwz",
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.283,
+      "analyzed_width": 640,
+      "analyzed_height": 480,
+      "tier2_score": 33.66
+    }
+  ],
+  "downloaded_count": 1,
+  "fetched_at": "2026-08-08T17:52:20Z"
+}

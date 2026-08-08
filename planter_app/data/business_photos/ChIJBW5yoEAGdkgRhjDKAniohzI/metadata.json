@@ -1,0 +1,62 @@
+{
+  "place_id": "ChIJBW5yoEAGdkgRhjDKAniohzI",
+  "status": "success",
+  "websiteUri": "https://www.just-eat.co.uk/restaurants-tagelezzcafemitcham-mitcham/menu",
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJBW5yoEAGdkgRhjDKAniohzI\\6a6e4ef59dd7.jpg",
+    "size_bytes": 39478,
+    "name": "places/ChIJBW5yoEAGdkgRhjDKAniohzI/photos/AWCwydh9JTEKyLEkmFiIDY0SvO_oxQ5FoKxJ3kBlcDeav7DzcHJVra9apSBn6UTFmSrTMOabdS51MPDaBATUkmBwfC2kKmffXx8-yhgT34_Gq8QQ3DR3WhGzv9Bi91E5nK-6XnpvfuLSuen-dmrPlK8eNUZJSIz_wUvB_-6LhnjZzY1ULTg6TDWpX1JiUplyoTc-0KfykGozPHg27Lpv8xxplGI6JUBwUV9jg1Q2YANTFdlZ2JtGrp4MPiwtmfni2MnoTOPs2qEAsT0PhTFKDgnwfQOsLTlpY0_WE0bL7xA36KhAiRpNZxf1h0f7ZkeZMdSG6vRLwsVlf6tAuYgrnwZdYo6YFqoVovlHQriR1XhGW0Qd648OMDwM7X8HnLXdliRcodCplKJmb6wnNQlQVl7gityX5UBiGSFOeqXeY6TISz7bSHmt",
+    "tier1_score": 17.78,
+    "aspect_ratio": 1.78,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.271,
+    "analyzed_width": 640,
+    "analyzed_height": 360,
+    "tier2_score": 36.09
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJBW5yoEAGdkgRhjDKAniohzI\\6a6e4ef59dd7.jpg",
+      "size_bytes": 39478,
+      "name": "places/ChIJBW5yoEAGdkgRhjDKAniohzI/photos/AWCwydh9JTEKyLEkmFiIDY0SvO_oxQ5FoKxJ3kBlcDeav7DzcHJVra9apSBn6UTFmSrTMOabdS51MPDaBATUkmBwfC2kKmffXx8-yhgT34_Gq8QQ3DR3WhGzv9Bi91E5nK-6XnpvfuLSuen-dmrPlK8eNUZJSIz_wUvB_-6LhnjZzY1ULTg6TDWpX1JiUplyoTc-0KfykGozPHg27Lpv8xxplGI6JUBwUV9jg1Q2YANTFdlZ2JtGrp4MPiwtmfni2MnoTOPs2qEAsT0PhTFKDgnwfQOsLTlpY0_WE0bL7xA36KhAiRpNZxf1h0f7ZkeZMdSG6vRLwsVlf6tAuYgrnwZdYo6YFqoVovlHQriR1XhGW0Qd648OMDwM7X8HnLXdliRcodCplKJmb6wnNQlQVl7gityX5UBiGSFOeqXeY6TISz7bSHmt",
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.271,
+      "analyzed_width": 640,
+      "analyzed_height": 360,
+      "tier2_score": 36.09
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJBW5yoEAGdkgRhjDKAniohzI\\83c29b5d3e73.jpg",
+      "size_bytes": 62707,
+      "name": "places/ChIJBW5yoEAGdkgRhjDKAniohzI/photos/AWCwydjHcBm59vTObapLHx65zv9K-VONXWpSJPBdwigMSEkgCXfKCpulmU2C9cbHZjLbWAMaz_VaGxKBs9ZkhdKE6dhFbXigIyvoWVAtA2iUNrVKorIb8LXj4_9pGkcLfz1BJXdHAG4ON0gZhDE0Pqlz-VX4TS1N5_Cxc3K5r-4IMck5sFc_XdObUz1FF9NqcP0ZpuLwN_NNkAlBCnFDgDSYOiqfANptWcTATXt-GP_RpeWbnz8Z1cgEMK-BaKqYgw6Jlhuaoc_lIPt9c3hSHZtRylQg_cMDv6q0lNl4_Zrm8cFnpVHVNNw3A8DG8Z6LbaSCo5ht3CXROVoGJmEjywlE1DOdxRIHRowVU-EKQfnaFJYqCnTIaO-3r67Vm04Cw3DKfj2YjpB0PFaWtADOJPZJnL83-JbTDruGQkW06aKm_yuzbYK9",
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.322,
+      "analyzed_width": 640,
+      "analyzed_height": 480,
+      "tier2_score": 34.44
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJBW5yoEAGdkgRhjDKAniohzI\\8fc4d85e5068.jpg",
+      "size_bytes": 80192,
+      "name": "places/ChIJBW5yoEAGdkgRhjDKAniohzI/photos/AWCwydjjN4ELItTngufeK9fnCaY5S6uQYTz5DblXOpaQwxKvZEmR0_f-b2MDJZQQ6ejj3MxUcImDnDNYGSrRjesD6-boB7Fv1s0cMsmD6FRtVkqG6yJjx4CPnkQbDs6i8MPPRWPwPP1oCPhLXQOVo7mqNxIkP-FdihZH0WjBpSU_9QkJKmHtu9p3G1KuRWI3bl2yF2TSYVtJvRxTZ4W4xu6tbCNHy5jF5zhj-nX-7AP-_8PW74s15wvCx9UFHQmz9crw_IWphh8jLmDp_afZeuBAwmORzZFmKdevKh5QYk13exuXJTBkgKPcvaCNIyGe7AisEwY00WTVGIGJ6-OUSecPYHw0mPW29xqVB10b46AdngmFGHctGf5BrHUUvs2CGKLK5oHUfBThtRazFEMwe9-wq_hcO_xb1OyEAZMwTFgjp-sFEg",
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.178,
+      "analyzed_width": 640,
+      "analyzed_height": 480,
+      "tier2_score": 31.56
+    }
+  ],
+  "downloaded_count": 3,
+  "fetched_at": "2026-08-08T12:05:34Z"
+}

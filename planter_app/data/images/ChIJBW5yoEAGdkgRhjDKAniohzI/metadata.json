@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJBW5yoEAGdkgRhjDKAniohzI",
+  "place_id": "ChIJBW5yoEAGdkgRhjDKAniohzI",
+  "name": "Tag Elezz Cafe Mitcham",
+  "address": "2A Upper Green E, Mitcham CR4 2PF, UK",
+  "lat": 51.405800899999996,
+  "lng": -0.1637967,
+  "panorama_lat": 51.40581747476208,
+  "panorama_lng": -0.1635960341979563,
+  "computed_bearing": 262.46,
+  "primary_heading": 262,
+  "validation_heading": 282,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 14.0,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:16Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

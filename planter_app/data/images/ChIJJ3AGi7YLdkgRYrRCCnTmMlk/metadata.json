@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJJ3AGi7YLdkgRYrRCCnTmMlk",
+  "place_id": "ChIJJ3AGi7YLdkgRYrRCCnTmMlk",
+  "name": "The French Tarte",
+  "address": "83 Maple Rd, Surbiton KT6 4AW, UK",
+  "lat": 51.395029099999995,
+  "lng": -0.3077785,
+  "panorama_lat": 51.39499885955848,
+  "panorama_lng": -0.3078137653467529,
+  "computed_bearing": 36.04,
+  "primary_heading": 36,
+  "validation_heading": 56,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 4.2,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:03Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

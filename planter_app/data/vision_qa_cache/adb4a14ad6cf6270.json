@@ -1,0 +1,7 @@
+{
+  "pass": false,
+  "confidence": 1.0,
+  "reason": "The image shows an indoor retail display of plumbing parts and storage baskets rather than a street-facing caf\u00e9 or restaurant frontage.",
+  "model": "gemini-3.5-flash-lite",
+  "image_path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\images\\ChIJA3NOoqsHdkgReHOikJIlCXg\\streetview_primary_345.jpg"
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "ChIJ6-S0dPgadkgROsFVlxrHazw",
+  "status": "success",
+  "websiteUri": "https://www.daisygreenfood.com/",
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ6-S0dPgadkgROsFVlxrHazw\\62fb41527e65.jpg",
+    "size_bytes": 121496,
+    "name": "places/ChIJ6-S0dPgadkgROsFVlxrHazw/photos/AWCwydgFIRMLR425ZIw9Pm_yiMpjyPvq1GWhwH6u1g1LlJDG8aoWWjlTOoTR8hhX2U9-liGlR9tfFSYwmszzw4cdNIkv4ADt-VsUor4d7TGGBmyNk1ktwkZ05DafGLZRzOVb_g2dkt1GHBXKx4gcE1aGgXkgEn8-JK35wXvpRdqF4667BNqDC0kuJb_pGuLi8Qo6Uz-Pxzp73GPBhYsTOslk8_mKi3DaImLiLNiO7-gUlvRk4B9LnkedSFYwQ0m3qHNsiuhDbDrcgk_9OcGbAvK6J5awbQwfTYLS9ZS-MoZHqZLDYvNPhst7LHSV5NXwWMe6yc8VrpIxcrh02IJGzrvJxPhKt6PmNRisk3DBmGw4a-TBr4vSzLGB8qvXQAuwD7ill646YIQRmQJk-FS8V5o33l9PJSbZ0IlsPdtWodavV-eEfc_lkmZYnapDG_zBW6Dz",
+    "tier1_score": 15.0,
+    "aspect_ratio": 1.5,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.356,
+    "analyzed_width": 640,
+    "analyzed_height": 427,
+    "tier2_score": 36.12
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ6-S0dPgadkgROsFVlxrHazw\\62fb41527e65.jpg",
+      "size_bytes": 121496,
+      "name": "places/ChIJ6-S0dPgadkgROsFVlxrHazw/photos/AWCwydgFIRMLR425ZIw9Pm_yiMpjyPvq1GWhwH6u1g1LlJDG8aoWWjlTOoTR8hhX2U9-liGlR9tfFSYwmszzw4cdNIkv4ADt-VsUor4d7TGGBmyNk1ktwkZ05DafGLZRzOVb_g2dkt1GHBXKx4gcE1aGgXkgEn8-JK35wXvpRdqF4667BNqDC0kuJb_pGuLi8Qo6Uz-Pxzp73GPBhYsTOslk8_mKi3DaImLiLNiO7-gUlvRk4B9LnkedSFYwQ0m3qHNsiuhDbDrcgk_9OcGbAvK6J5awbQwfTYLS9ZS-MoZHqZLDYvNPhst7LHSV5NXwWMe6yc8VrpIxcrh02IJGzrvJxPhKt6PmNRisk3DBmGw4a-TBr4vSzLGB8qvXQAuwD7ill646YIQRmQJk-FS8V5o33l9PJSbZ0IlsPdtWodavV-eEfc_lkmZYnapDG_zBW6Dz",
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.356,
+      "analyzed_width": 640,
+      "analyzed_height": 427,
+      "tier2_score": 36.12
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ6-S0dPgadkgROsFVlxrHazw\\e3b1639962b8.jpg",
+      "size_bytes": 101374,
+      "name": "places/ChIJ6-S0dPgadkgROsFVlxrHazw/photos/AWCwydhBnlili_dKrEyYvCvcHOqeC6pmuZPvr6BwWJaf_trdjjEBce8v72S9hdyzpA3xpRjITzZ1Zkd1odorMbct4cXhatkJAqA2dNLRvdtu26XCVPL2SuBibRiR5PpERvXi02JQrfuL4pFDFt3Q0DexzJDDs5q13gfW21QGa1LjTsq_w6fx1Mj4qzD2Urx0RpncUoq0Upm-Zbvc1aME94vCsXGdvbPEjsTnVRlSQn8LTNaLPv16bR_fHyh6MHqDv4oCTimaH6fdMNrhOZJBJtxrXQ0LpmmbrtH_xfGJsyBec06eByudLPqwMCltizVmiBmbCeLsRy34_ii1T_EvDkUuvbPDtwUiqHWIjtb5CrnI7GXv3e-yQY24Rov-Ye4LObcTB77preBKE7-XpU8hmHTX_3mSEYj64EuZJUNNmJau4jUbTkfjLBhF_yuIWu24xg",
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.296,
+      "analyzed_width": 640,
+      "analyzed_height": 427,
+      "tier2_score": 34.92
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ6-S0dPgadkgROsFVlxrHazw\\07cbbe705797.jpg",
+      "size_bytes": 86441,
+      "name": "places/ChIJ6-S0dPgadkgROsFVlxrHazw/photos/AWCwydi70PQJgI028wR1uopvCJtw-x6eGr4pA165-EchelDK1CEcT4gyqBBdlJxjQXmbaj0gF-9UQ0Uuwv5ifpfcAZSkSxHVLXEOo_EEMB9Dt3rtMufV2Cp7p6YrZmqBYelBqMeOjwXLfhpoFdlUAjORkeRXhdq-mx3Me-6iTOUHTVOIPNDZDKnQ9Yui2ZRHkD2QeKOtW7IYdHM7vyHu4ViQDREPiTEbFJ-4GGEJsdWnHVqA1I7ymc4k72E68KNGTwfTFvIWdj0JpQ9rPoVS6SAcFjM4ipfGqSvRNnX3gP4LXIWdG33xI9K-qcIpV9aNS0Nz1b9GlZjPEQX8T8zvhePMWvLjD1WfrA-Eeu03BW1ybXZkpjEojlxBRGL7EgQlf3Vtl720-D5EuMN7CK5uYAZnoQ7M3-w8yC_LaF9ulfWR7q8",
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.167,
+      "analyzed_width": 640,
+      "analyzed_height": 360,
+      "tier2_score": 34.01
+    }
+  ],
+  "downloaded_count": 3,
+  "fetched_at": "2026-08-08T13:03:11Z"
+}

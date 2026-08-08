@@ -1,0 +1,7 @@
+{
+  "pass": false,
+  "confidence": 1.0,
+  "reason": "The image fails the checklist because it shows a blank wall and a street view rather than the clear exterior front and entrance of a caf\u00e9 or restaurant.",
+  "model": "gemini-3.5-flash-lite",
+  "image_path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\images\\ChIJlQnywv8LdkgRwWZibL7VXLI\\streetview_primary_16.jpg"
+}

@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJK9OuDRELdkgRcJoSR01KLgc",
+  "place_id": "ChIJK9OuDRELdkgRcJoSR01KLgc",
+  "name": "Canela Cafe",
+  "address": "5 Creek Rd, Molesey, East Molesey KT8 9BE, UK",
+  "lat": 51.4027354,
+  "lng": -0.34351499999999996,
+  "panorama_lat": 51.40267670109679,
+  "panorama_lng": -0.3434021395065903,
+  "computed_bearing": 309.82,
+  "primary_heading": 310,
+  "validation_heading": 330,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 10.2,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:12Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

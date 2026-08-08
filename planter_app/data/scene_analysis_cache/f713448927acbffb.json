@@ -1,0 +1,39 @@
+{
+  "pixels_per_meter": 110.0,
+  "reference_object": "door",
+  "reference_width_meters": 0.9,
+  "shadow_angle_deg": 135.0,
+  "shadow_softness": "soft",
+  "ground_plane_y": 422,
+  "door_bbox": {
+    "x": 525,
+    "y": 309,
+    "width": 95,
+    "height": 168
+  },
+  "placement_candidates": [
+    {
+      "x": 420,
+      "y": 495,
+      "label": "left_entrance",
+      "score": 0.9
+    },
+    {
+      "x": 480,
+      "y": 498,
+      "label": "center_entrance",
+      "score": 0.85
+    },
+    {
+      "x": 640,
+      "y": 483,
+      "label": "right_entrance",
+      "score": 0.75
+    }
+  ],
+  "lighting_direction": "top_left",
+  "image_height": 480,
+  "image_width": 640,
+  "model": "gemini-3.5-flash-lite",
+  "image_path": "planter_app\\data\\images\\ChIJA5PfGEALdkgRmSwijMUi3_8\\streetview_primary_90.jpg"
+}

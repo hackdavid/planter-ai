@@ -1,0 +1,55 @@
+{
+  "place_id": "ChIJAdrq478LdkgRbIQdZ-jtDAs",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://www.fortunella.co.uk/",
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "source": "website",
+      "path": "http://www.fortunella.co.uk/uploads/3/4/8/1/34818106/17758623-1873417232900496-5362278005189715565-o.jpg",
+      "tier2_score": 36.52,
+      "tier1_score": 13.3,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJAdrq478LdkgRbIQdZ-jtDAs\\c1965e374f90.jpg",
+      "tier2_score": 35.8,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "http://www.fortunella.co.uk/uploads/3/4/8/1/34818106/12651182-1687563241485897-3578241983355344835-n.jpg",
+      "tier2_score": 33.86,
+      "tier1_score": 13.3,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJAdrq478LdkgRbIQdZ-jtDAs\\d9f53af168e7.jpg",
+      "tier2_score": 31.65,
+      "tier1_score": 14.99,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJAdrq478LdkgRbIQdZ-jtDAs\\a0be113dc86f.jpg",
+      "tier2_score": 31.24,
+      "tier1_score": 13.34,
+      "aspect_ratio": 1.33
+    }
+  ],
+  "best_candidate": {
+    "source": "website",
+    "path": "http://www.fortunella.co.uk/uploads/3/4/8/1/34818106/17758623-1873417232900496-5362278005189715565-o.jpg",
+    "tier2_score": 36.52,
+    "tier1_score": 13.3,
+    "aspect_ratio": 1.33
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 2
+  }
+}

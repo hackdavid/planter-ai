@@ -1,0 +1,62 @@
+{
+  "place_id": "ChIJF8R_7LuFdUgR44NtgLboYyU",
+  "status": "success",
+  "websiteUri": "http://www.openbakery.co.uk/",
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJF8R_7LuFdUgR44NtgLboYyU\\1e486e3b174f.jpg",
+    "size_bytes": 74383,
+    "name": "places/ChIJF8R_7LuFdUgR44NtgLboYyU/photos/AWCwydgvE_j4LmC0AZ56N4ijp3Bv5cpC4mPcb5qtcuq5EpwJKeBegZuiLRA5sqhN4JYf_R5w0ELiTh-pjAY2vGxL3nmDk3dkMHs0Hfw2m-OcSzJCYWI29Z74mY1RpVPGiQWH1XzlkswUniXdFSesm28hajptGrUc7ENvA6p4IHS6x5yFIwO1i-S92_sDNgiNGXStuMDg3KVpce1oMY_29OgtvApjWqX7ys3kC37QHcj-wTb4jVQ4aoelhVdZ9KgjQWda-8hfoPO13sQtgyuBTXJ5JA8sOk5P584R-AdPgoOJtS8G5ec_7W0S7v9kCcBaPLAUA4p1MDowyagog5-Ze3UPDikHFtPGlPk0eRGpkgg2Az30gcvHPScXr_C4a2wMqj7essyaIChCstVl5qedOOJBX3ms7loU4NZjh8dPa7VvoGqKWRwL",
+    "tier1_score": 15.01,
+    "aspect_ratio": 1.5,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.395,
+    "analyzed_width": 640,
+    "analyzed_height": 426,
+    "tier2_score": 36.91
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJF8R_7LuFdUgR44NtgLboYyU\\1e486e3b174f.jpg",
+      "size_bytes": 74383,
+      "name": "places/ChIJF8R_7LuFdUgR44NtgLboYyU/photos/AWCwydgvE_j4LmC0AZ56N4ijp3Bv5cpC4mPcb5qtcuq5EpwJKeBegZuiLRA5sqhN4JYf_R5w0ELiTh-pjAY2vGxL3nmDk3dkMHs0Hfw2m-OcSzJCYWI29Z74mY1RpVPGiQWH1XzlkswUniXdFSesm28hajptGrUc7ENvA6p4IHS6x5yFIwO1i-S92_sDNgiNGXStuMDg3KVpce1oMY_29OgtvApjWqX7ys3kC37QHcj-wTb4jVQ4aoelhVdZ9KgjQWda-8hfoPO13sQtgyuBTXJ5JA8sOk5P584R-AdPgoOJtS8G5ec_7W0S7v9kCcBaPLAUA4p1MDowyagog5-Ze3UPDikHFtPGlPk0eRGpkgg2Az30gcvHPScXr_C4a2wMqj7essyaIChCstVl5qedOOJBX3ms7loU4NZjh8dPa7VvoGqKWRwL",
+      "tier1_score": 15.01,
+      "aspect_ratio": 1.5,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.395,
+      "analyzed_width": 640,
+      "analyzed_height": 426,
+      "tier2_score": 36.91
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJF8R_7LuFdUgR44NtgLboYyU\\357df5d2ba3c.jpg",
+      "size_bytes": 86642,
+      "name": "places/ChIJF8R_7LuFdUgR44NtgLboYyU/photos/AWCwydinXFA2hD4bi0vVPEls_rpwQpGVOvlVcGwYrTN3b2OQnhgH4W2Gj6-rkm4dQ2Dio1vcfEBZEMybjEO0rWNgqTcqHtAT-7BCTHjRK6v6jWiF_-5UoLw-d81Pc3g-ME4RdBdWb7CvlsY9qfjmP_o4QfaOlzPHzOPMEndhve2Xrb4KG51--v5YV3ZFhHmL-dxizgIv1ISD2xr-m7_QLF4Ok48lsvbD_h-OmLlqrRzr1zJlWW4ciibPYCzt5UoU2_beFEFMuJJoPUWZCbBHo8Ju5Ohszalk_2BlRsHzV8VMVsDkjHXto7hZ-HBLACsf_-7tk-by4QuP_erJkngSlUV4vfOPr5-UfodOWZxMMyrZBzeWf9Hu6TKjZC_P0i1QS2aIuMf8dZ8VJe1F4UHWDrvCCh_EYUkJi2J9u4ujA7v8GFKXqgLA",
+      "tier1_score": 15.08,
+      "aspect_ratio": 1.51,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.267,
+      "analyzed_width": 640,
+      "analyzed_height": 424,
+      "tier2_score": 34.39
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJF8R_7LuFdUgR44NtgLboYyU\\8c04c55b3691.jpg",
+      "size_bytes": 80821,
+      "name": "places/ChIJF8R_7LuFdUgR44NtgLboYyU/photos/AWCwydjksdgpEWU9rYHIeJaL1KttDWmufXyuQoIE7DxqAe6p8RZdsc2R3PBhgHnlJfYENz_rrxJbl0Lt1jmTYGvPXzPxK2EjMeyW33TCEBi3znSnhM81Hvc-OpGfdBWvX_fz7xnUCom-6_DlZVWV9SqoJ0TwvubGm21xIKcY99K3wdsIbMWwj3k2iWtJcaIuhBqR8DcL81GiJjYo_MCIilDEDmOmmPMxi56KRsMFJAd8wVRqWODA8L9CqfO0zDGqbAHGdJJQs57J8pxpBz1il5g7i_a7HbWmfaA3iZovlcFQUkqqDVP8apazUi70vjGbLrdwq3xyymEyIdlBrUTb_ZSyT8TlNHY1y1LGZy8L6DL7VmYa0js_p-cfkJfOYjIilJQXs0IH_-JADewkz7ApKcqOH9azdoabz_jyWJxpZieuRTNlUGVH",
+      "tier1_score": 16.41,
+      "aspect_ratio": 1.64,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.221,
+      "analyzed_width": 640,
+      "analyzed_height": 390,
+      "tier2_score": 34.27
+    }
+  ],
+  "downloaded_count": 3,
+  "fetched_at": "2026-08-08T17:53:47Z"
+}

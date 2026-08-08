@@ -1,0 +1,62 @@
+{
+  "place_id": "ChIJlQnywv8LdkgRwWZibL7VXLI",
+  "status": "success",
+  "websiteUri": "http://eleanasbistro.co.uk/",
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJlQnywv8LdkgRwWZibL7VXLI\\ff1e36109279.jpg",
+    "size_bytes": 60055,
+    "name": "places/ChIJlQnywv8LdkgRwWZibL7VXLI/photos/AWCwydi-eFOZv2BShFxM3Kbb9b2YItunohNI_fk9tV0c1wmkXUjuua-Ru-O1fDgYFvlKMngr4B47YD8hrlr8Qc3Jz1xsYIs4lx_Taf08UDCUV01h-dT144C9XB_55FPlSRyQVPKARt2YP-wFTvO-U5l6I0ickQOUNP0-gKpuDV2W7zfOtyoa2_j9Ka6j0lQirG8trAQUW346Dc1fgYOFqddj0wDwuSB3LTg5uZFEdQzo9537TEBPKtBKPmAhU6pLTz9lDjQBP9ht8XhYPEjXTSIWd_vRpu-Nerpa57HgbrP5tr7Y8KVNZq4AUU1pZkY9vp73ZymLZktgcRD5wwviegtv9nmbEglpRQ1LJx96g7BblWgFOuZ7XwxxMncuhWBBuO5vWHH4sU_2QSMR32FhTk0sn_N2Vaa90BtyK5gYNdC2y7QqS4Q",
+    "tier1_score": 17.78,
+    "aspect_ratio": 1.78,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.296,
+    "analyzed_width": 640,
+    "analyzed_height": 360,
+    "tier2_score": 36.59
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJlQnywv8LdkgRwWZibL7VXLI\\ff1e36109279.jpg",
+      "size_bytes": 60055,
+      "name": "places/ChIJlQnywv8LdkgRwWZibL7VXLI/photos/AWCwydi-eFOZv2BShFxM3Kbb9b2YItunohNI_fk9tV0c1wmkXUjuua-Ru-O1fDgYFvlKMngr4B47YD8hrlr8Qc3Jz1xsYIs4lx_Taf08UDCUV01h-dT144C9XB_55FPlSRyQVPKARt2YP-wFTvO-U5l6I0ickQOUNP0-gKpuDV2W7zfOtyoa2_j9Ka6j0lQirG8trAQUW346Dc1fgYOFqddj0wDwuSB3LTg5uZFEdQzo9537TEBPKtBKPmAhU6pLTz9lDjQBP9ht8XhYPEjXTSIWd_vRpu-Nerpa57HgbrP5tr7Y8KVNZq4AUU1pZkY9vp73ZymLZktgcRD5wwviegtv9nmbEglpRQ1LJx96g7BblWgFOuZ7XwxxMncuhWBBuO5vWHH4sU_2QSMR32FhTk0sn_N2Vaa90BtyK5gYNdC2y7QqS4Q",
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.296,
+      "analyzed_width": 640,
+      "analyzed_height": 360,
+      "tier2_score": 36.59
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJlQnywv8LdkgRwWZibL7VXLI\\3d7197976d41.jpg",
+      "size_bytes": 67877,
+      "name": "places/ChIJlQnywv8LdkgRwWZibL7VXLI/photos/AWCwydjAnno6W0pXvrchAjZ_dvjDNArrA6Oo49_map2Y_7VR99_fk4i5WpKEK8V3EHDgekO7MwaGgNTj30SexD70btTCY3tlNl9QQCF7-3wQYSdHynPnUIPVj8ztWkM1rQlsBgMfGdCQvwRrfgncpf-oize05umuAUVSaGQgw80ugsPdnPcUfIhYfE1KzgsFceGYalYtthiccBowTU5ADA3x_COdkkU-RjRRnd_UUAYwShT53XOnhZLTAkmnZeqmvtT1TWSC23KQiWX5iU-m1CI_KSlDMR0AxhekFXKkhcwkSjOy45leORQ5AYO4WqHONqYa4TwQbVwSsFqRtW-2nKoxAmBhZEkDnb3I_luTw-YTveBxEz-jJJecMkBo1GDU-O5uxwjGa8Hj999o6QbyBa6xEh3m_5GgxDq1n2ZvJoXR3qZd9g",
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.256,
+      "analyzed_width": 640,
+      "analyzed_height": 427,
+      "tier2_score": 34.12
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJlQnywv8LdkgRwWZibL7VXLI\\96b5aa74e3f2.jpg",
+      "size_bytes": 104535,
+      "name": "places/ChIJlQnywv8LdkgRwWZibL7VXLI/photos/AWCwydjDRsYyqu2vmhHE9hAJiCZr0VMKt7XedfscY99GD7k8TETQCysyQs1C4ticy9ujfeVY-tBXCI94INrJLsMOvQY-xB4u7NdjIX-itzjOOpLUEXIg2FJIKc3Jw6kSCl_4puVwuawyqQBD583pfy4b8N1cPNKZRBWpflD5a2wkBkYu7Lw7ks7-5afMFcoLs4OcSNFSsttyDLZAE9zmbMCi2eEgOp2e-VWHAOH93awx6pPClGsvGPL3OitlWSA-A3K9QqBAQ3p0qt21683nHqvTGMkE_iiJVBbo-UGUXoenYcW-RoB1Af3kSw9B0UbFp_7S3-E4NtAT1PoxEWRj4nizuTCKtE5YeWjmARUkCxXs5bqPk97YxhBRQIucvCFgXJP3hAhPmJrpGz12OAQ3MC4l0zM-7A0X4-2L83J0u0gmue4",
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.275,
+      "analyzed_width": 640,
+      "analyzed_height": 480,
+      "tier2_score": 33.5
+    }
+  ],
+  "downloaded_count": 3,
+  "fetched_at": "2026-08-08T12:05:27Z"
+}

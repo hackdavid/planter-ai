@@ -1,0 +1,28 @@
+{
+  "venue_id": "ChIJR6kvFRELdkgR7deUVt8nLws",
+  "frontage_source": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\images\\ChIJR6kvFRELdkgR7deUVt8nLws\\streetview_primary_299.jpg",
+  "planter_source": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\uploads\\plant2.png",
+  "composites": [
+    {
+      "position": "left",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\composites\\ChIJR6kvFRELdkgR7deUVt8nLws\\planter_left.jpg",
+      "scale_ratio": 0.094,
+      "anchor_x": 248,
+      "anchor_y": 426
+    },
+    {
+      "position": "center",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\composites\\ChIJR6kvFRELdkgR7deUVt8nLws\\planter_center.jpg",
+      "scale_ratio": 0.094,
+      "anchor_x": 326,
+      "anchor_y": 426
+    },
+    {
+      "position": "right",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\composites\\ChIJR6kvFRELdkgR7deUVt8nLws\\planter_right.jpg",
+      "scale_ratio": 0.094,
+      "anchor_x": 405,
+      "anchor_y": 426
+    }
+  ]
+}

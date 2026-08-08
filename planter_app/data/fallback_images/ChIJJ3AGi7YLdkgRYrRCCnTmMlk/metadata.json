@@ -1,0 +1,41 @@
+{
+  "place_id": "ChIJJ3AGi7YLdkgRYrRCCnTmMlk",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "https://www.thefrenchtarte.co.uk/",
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJJ3AGi7YLdkgRYrRCCnTmMlk\\d893e231fce3.jpg",
+      "tier2_score": 35.18,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJJ3AGi7YLdkgRYrRCCnTmMlk\\f6198e92e9ec.jpg",
+      "tier2_score": 33.5,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJJ3AGi7YLdkgRYrRCCnTmMlk\\28887d0ba549.jpg",
+      "tier2_score": 32.18,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJJ3AGi7YLdkgRYrRCCnTmMlk\\d893e231fce3.jpg",
+    "tier2_score": 35.18,
+    "tier1_score": 13.33,
+    "aspect_ratio": 1.33
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 0
+  }
+}

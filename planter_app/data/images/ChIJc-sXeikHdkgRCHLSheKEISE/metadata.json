@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJc-sXeikHdkgRCHLSheKEISE",
+  "place_id": "ChIJc-sXeikHdkgRCHLSheKEISE",
+  "name": "Chaiiwala",
+  "address": "London Road 1424, Norbury, London SW16 4EP, UK",
+  "lat": 51.4104442,
+  "lng": -0.12247059999999999,
+  "panorama_lat": 51.41040122135846,
+  "panorama_lng": -0.1225778238105173,
+  "computed_bearing": 57.27,
+  "primary_heading": 57,
+  "validation_heading": 77,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 8.8,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:08Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

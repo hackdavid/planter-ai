@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJAdrq478LdkgRbIQdZ-jtDAs",
+  "place_id": "ChIJAdrq478LdkgRbIQdZ-jtDAs",
+  "name": "Fortunella Caf\u00e9",
+  "address": "8 Apple Market, Kingston upon Thames KT1 1JE, UK",
+  "lat": 51.4093198,
+  "lng": -0.3057916,
+  "panorama_lat": 51.40934855300823,
+  "panorama_lng": -0.3057768610257275,
+  "computed_bearing": 197.73,
+  "primary_heading": 198,
+  "validation_heading": 218,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 3.4,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:00Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

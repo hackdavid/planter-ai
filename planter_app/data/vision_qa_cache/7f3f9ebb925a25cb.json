@@ -1,0 +1,7 @@
+{
+  "pass": false,
+  "confidence": 1.0,
+  "reason": "The image shows an interior cabinet or shelving unit displaying food products rather than the street-facing exterior of a venue.",
+  "model": "gemini-3.5-flash-lite",
+  "image_path": "planter_app\\data\\images\\ChIJAdrq478LdkgRbIQdZ-jtDAs\\streetview_primary_198.jpg"
+}

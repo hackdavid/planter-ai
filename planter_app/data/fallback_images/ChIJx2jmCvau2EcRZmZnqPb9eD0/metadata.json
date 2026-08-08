@@ -1,0 +1,41 @@
+{
+  "place_id": "ChIJx2jmCvau2EcRZmZnqPb9eD0",
+  "status": "success",
+  "reason": null,
+  "websiteUri": null,
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJx2jmCvau2EcRZmZnqPb9eD0\\17f547c47aaf.jpg",
+      "tier2_score": 33.89,
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJx2jmCvau2EcRZmZnqPb9eD0\\bc7959689ba3.jpg",
+      "tier2_score": 32.49,
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJx2jmCvau2EcRZmZnqPb9eD0\\c16329fce214.jpg",
+      "tier2_score": 31.45,
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJx2jmCvau2EcRZmZnqPb9eD0\\17f547c47aaf.jpg",
+    "tier2_score": 33.89,
+    "tier1_score": 17.78,
+    "aspect_ratio": 1.78
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 0
+  }
+}

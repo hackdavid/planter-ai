@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJA5PfGEALdkgRmSwijMUi3_8",
+  "place_id": "ChIJA5PfGEALdkgRmSwijMUi3_8",
+  "name": "Lion Gate Caf\u00e9",
+  "address": "Hampton Ct Rd, Molesey, East Molesey KT8 9BZ, UK",
+  "lat": 51.406651700000005,
+  "lng": -0.3369095,
+  "panorama_lat": 51.40665124372605,
+  "panorama_lng": -0.3370101234340176,
+  "computed_bearing": 89.58,
+  "primary_heading": 90,
+  "validation_heading": 110,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 7.0,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:06Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

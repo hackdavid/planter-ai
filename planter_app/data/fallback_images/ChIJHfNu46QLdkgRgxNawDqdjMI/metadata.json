@@ -1,0 +1,41 @@
+{
+  "place_id": "ChIJHfNu46QLdkgRgxNawDqdjMI",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://www.cafebenedict.co.uk/",
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJHfNu46QLdkgRgxNawDqdjMI\\2dcc2f64f90c.jpg",
+      "tier2_score": 41.12,
+      "tier1_score": 22.07,
+      "aspect_ratio": 2.21
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJHfNu46QLdkgRgxNawDqdjMI\\9e50349a6132.jpg",
+      "tier2_score": 37.77,
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJHfNu46QLdkgRgxNawDqdjMI\\fbdfd2bfd07e.jpg",
+      "tier2_score": 31.29,
+      "tier1_score": 15.05,
+      "aspect_ratio": 1.5
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJHfNu46QLdkgRgxNawDqdjMI\\2dcc2f64f90c.jpg",
+    "tier2_score": 41.12,
+    "tier1_score": 22.07,
+    "aspect_ratio": 2.21
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 0
+  }
+}

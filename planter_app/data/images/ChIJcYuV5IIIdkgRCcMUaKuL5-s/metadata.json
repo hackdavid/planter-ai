@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJcYuV5IIIdkgRCcMUaKuL5-s",
+  "place_id": "ChIJcYuV5IIIdkgRCcMUaKuL5-s",
+  "name": "Sunshine Cafe (MORDEN)",
+  "address": "54 Central Rd, Morden SM4 5RP, UK",
+  "lat": 51.3973626,
+  "lng": -0.18984479999999998,
+  "panorama_lat": 51.39729435831472,
+  "panorama_lng": -0.1896920261069163,
+  "computed_bearing": 305.6,
+  "primary_heading": 306,
+  "validation_heading": 326,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 13.0,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:15Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

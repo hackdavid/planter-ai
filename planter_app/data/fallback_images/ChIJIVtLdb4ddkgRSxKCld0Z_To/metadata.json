@@ -1,0 +1,41 @@
+{
+  "place_id": "ChIJIVtLdb4ddkgRSxKCld0Z_To",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://www.forno.london/",
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJIVtLdb4ddkgRSxKCld0Z_To\\bfdd476c8369.jpg",
+      "tier2_score": 36.5,
+      "tier1_score": 17.77,
+      "aspect_ratio": 1.78
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJIVtLdb4ddkgRSxKCld0Z_To\\129f6fab6473.jpg",
+      "tier2_score": 31.64,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJIVtLdb4ddkgRSxKCld0Z_To\\909381755fc0.jpg",
+      "tier2_score": 31.4,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJIVtLdb4ddkgRSxKCld0Z_To\\bfdd476c8369.jpg",
+    "tier2_score": 36.5,
+    "tier1_score": 17.77,
+    "aspect_ratio": 1.78
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 0
+  }
+}

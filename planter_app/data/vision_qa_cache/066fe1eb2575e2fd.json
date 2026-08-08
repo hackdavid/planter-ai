@@ -1,0 +1,7 @@
+{
+  "pass": false,
+  "confidence": 0.95,
+  "reason": "The image is taken from the inside looking out through a glass door and reflections, rather than showing the exterior street-facing frontage of the venue.",
+  "model": "gemini-3.5-flash-lite",
+  "image_path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\images\\ChIJJ3AGi7YLdkgRYrRCCnTmMlk\\streetview_primary_36.jpg"
+}

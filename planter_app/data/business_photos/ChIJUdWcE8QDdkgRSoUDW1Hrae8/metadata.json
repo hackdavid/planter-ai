@@ -1,0 +1,62 @@
+{
+  "place_id": "ChIJUdWcE8QDdkgRSoUDW1Hrae8",
+  "status": "success",
+  "websiteUri": "https://gails.com/pages/greenwich",
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJUdWcE8QDdkgRSoUDW1Hrae8\\3fe51f49c552.jpg",
+    "size_bytes": 85344,
+    "name": "places/ChIJUdWcE8QDdkgRSoUDW1Hrae8/photos/AWCwydhG4q3B4qCZ3hL5JtZjZTX4zkCTZZjM4uaDfGT9YZZM8MuWmcGMTIvETucFZOq3mtwap6uaSTj72-qXcRi4Ewp-lUkhtEx0juFSoDp3gDQk1rYZKgeKW0BEr5eT4HCrt9qDtSTLF-DPy6g7Ql7kJKnzGTnXYVwsxwKM_coJBYTW28ZgPg6tnDM3PEUOxzCN5Ha7aNR26kNLyaY_uSb0V07hUmatfPWkwbMPNY_cxzGCXsQmFWXxlgdfzagUeu5IgrxNqBjbI8rpVkRa4qDeRy9qpzD-H_aZG5WzwiDpGtpH6Kf-FNt0nto3aODK0I_sTOGtcU3BbxOBF3EqS0y8ZD3-u2NZaV19aRgTuVFcX4vcDJO8fZwT7O1wMWQfAz9WSjysOL6PrQJ-k6hxyDVWebmrPqPz2P2LQC2l5nugPNj_6Ji9OTgr4ES4pWnQ49ff",
+    "tier1_score": 17.76,
+    "aspect_ratio": 1.78,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.375,
+    "analyzed_width": 640,
+    "analyzed_height": 360,
+    "tier2_score": 38.16
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJUdWcE8QDdkgRSoUDW1Hrae8\\3fe51f49c552.jpg",
+      "size_bytes": 85344,
+      "name": "places/ChIJUdWcE8QDdkgRSoUDW1Hrae8/photos/AWCwydhG4q3B4qCZ3hL5JtZjZTX4zkCTZZjM4uaDfGT9YZZM8MuWmcGMTIvETucFZOq3mtwap6uaSTj72-qXcRi4Ewp-lUkhtEx0juFSoDp3gDQk1rYZKgeKW0BEr5eT4HCrt9qDtSTLF-DPy6g7Ql7kJKnzGTnXYVwsxwKM_coJBYTW28ZgPg6tnDM3PEUOxzCN5Ha7aNR26kNLyaY_uSb0V07hUmatfPWkwbMPNY_cxzGCXsQmFWXxlgdfzagUeu5IgrxNqBjbI8rpVkRa4qDeRy9qpzD-H_aZG5WzwiDpGtpH6Kf-FNt0nto3aODK0I_sTOGtcU3BbxOBF3EqS0y8ZD3-u2NZaV19aRgTuVFcX4vcDJO8fZwT7O1wMWQfAz9WSjysOL6PrQJ-k6hxyDVWebmrPqPz2P2LQC2l5nugPNj_6Ji9OTgr4ES4pWnQ49ff",
+      "tier1_score": 17.76,
+      "aspect_ratio": 1.78,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.375,
+      "analyzed_width": 640,
+      "analyzed_height": 360,
+      "tier2_score": 38.16
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJUdWcE8QDdkgRSoUDW1Hrae8\\db72e0662fb5.jpg",
+      "size_bytes": 86464,
+      "name": "places/ChIJUdWcE8QDdkgRSoUDW1Hrae8/photos/AWCwydinVZ7QScn-KLLycGiXVruQ34OgSMbJBsQX5Pant9PMWijn54xBGh32BnULAv5YI7uw0dOQLIE0MRkgHpbAYwPDXHxSwJdSA3NuQm8TOx4U0EI4g9ThQUEX-JDaIRQdRYGJL7pDkPf9pJSABa2Kbn5LSAdVlAzoSI_kSVQS5x__7IE3nRsl9Jy2dAWHny39F99R-Gt5tltSrk74dYQBN-WI9dVBcfAlJcguJb5iy8IKybGz8gkIhg0xzZO9-3Iz-4yPX6DrPCClc_uXiGzBkS_lsfjLI_YzE-5i6kQV-4Jk7e6fPp8SgF67Y75KJ_Q-SLa-4gL87QOqER9QEdIE8fMDG6SF4wVB2cry2rQmePCSD08Bh5Vz1Itc00Y0Mrp8jD1EJK8rcTx5QpYRNWhoCzkrZ82kGTTveaVIfYJrm6JbTw",
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.33,
+      "analyzed_width": 640,
+      "analyzed_height": 426,
+      "tier2_score": 35.6
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJUdWcE8QDdkgRSoUDW1Hrae8\\0402364b5003.jpg",
+      "size_bytes": 85246,
+      "name": "places/ChIJUdWcE8QDdkgRSoUDW1Hrae8/photos/AWCwydhxb7qzA_pJXLXlmz6RjP3UqV1qmC6pAiODx9FFJ6btuky9XOAK-X_QQMHZIhvBQKPGDGqKRLjtOpVa9LGmfGKSq_eW71bQWTGVKM18ik3AgsxA_aiF_L7uw-_1Gqwq3LcP6RCh_MBPO7eDZLeq8RgLB9g4vS6Vyic4LVg0P89NeBYXKKmG3rilhUwNDhKxd0pAIuqcGtnH2h5A8sGytXQdl0jVF4sVSvPPi3q4fFjvu03remLnROe_kZa7o2p2KXvzQvck0ffS0lkxJtIMwbsG5-xWFH9_1RvPUNA4yaaJr3y5rWRz0-A2tZvrx_Q863FaW11JbPonecSmVakLoCpVtwQ7pGBYW0y2F87_AjRWKvJDZrIR_6gTL0BuHQlqDE7jbA3oBu7TmV_IlqENzlXSEGV0IVnjnykBKWVKLJCurEY",
+      "tier1_score": 16.46,
+      "aspect_ratio": 1.65,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.271,
+      "analyzed_width": 640,
+      "analyzed_height": 389,
+      "tier2_score": 35.3
+    }
+  ],
+  "downloaded_count": 3,
+  "fetched_at": "2026-08-08T12:28:25Z"
+}

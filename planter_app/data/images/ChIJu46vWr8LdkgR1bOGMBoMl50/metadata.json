@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJu46vWr8LdkgR1bOGMBoMl50",
+  "place_id": "ChIJu46vWr8LdkgR1bOGMBoMl50",
+  "name": "Surbeanton",
+  "address": "48 Victoria Rd, Surbiton KT6 4JL, UK",
+  "lat": 51.391328599999994,
+  "lng": -0.30892280000000005,
+  "panorama_lat": 51.39129446499398,
+  "panorama_lng": -0.3089902422012031,
+  "computed_bearing": 50.95,
+  "primary_heading": 51,
+  "validation_heading": 71,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 6.0,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:04Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

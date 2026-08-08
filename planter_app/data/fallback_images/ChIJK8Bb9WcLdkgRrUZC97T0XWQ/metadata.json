@@ -1,0 +1,13 @@
+{
+  "place_id": "ChIJK8Bb9WcLdkgRrUZC97T0XWQ",
+  "status": "no_candidates",
+  "reason": "Neither Business Photos nor website yielded usable images",
+  "websiteUri": "http://www.deercafekingston.com/",
+  "candidate_count": 0,
+  "candidates": [],
+  "best_candidate": null,
+  "sources": {
+    "business_photos_count": 0,
+    "website_count": 0
+  }
+}

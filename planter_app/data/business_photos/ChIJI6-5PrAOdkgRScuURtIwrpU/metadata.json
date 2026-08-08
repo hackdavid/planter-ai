@@ -1,0 +1,62 @@
+{
+  "place_id": "ChIJI6-5PrAOdkgRScuURtIwrpU",
+  "status": "success",
+  "websiteUri": "https://www.royalparks.org.uk/parks/richmond-park/food-and-drink/refreshment-points-in-richmond-park",
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJI6-5PrAOdkgRScuURtIwrpU\\cf47cefd4a19.jpg",
+    "size_bytes": 90661,
+    "name": "places/ChIJI6-5PrAOdkgRScuURtIwrpU/photos/AWCwydjvdgIVQOYCjorO5e__fHBxN0ABUyirmYTHhG8CturaXXHsG2qc3MEMBJsvvnuj6GF1nQixd0bMTwLBsLuL0dZUYNfLHl9SeYn4SQ_rpPspclQmMpnk8Ibvauluef5JpH5CoVrsb9-D5ht2iRCMxXFawLKguA53zX_ZkXjRYAJ-WF3T3bozviRQg3MVk0k7Mluia-8LpHvCYKZaf20yewwwPuJTh_K5uvctVIpSSpHwnYcXwxUM8Z-irAhudOfNumGkLhJq-jXTPi2AgFoN-RRljQvM9KBmt8FHz-z7vX-ZhO9wFkcmA6kdLs2qzQeQ30F18VmDXAk4CkZCC6Rcqc7e-bvu_-J2AEZh-noTSvTZoqO8u7d2p4AU3OvbmV0elgnYGTSpSJ3IMArYUbQzHIf2LnUJxUAcpfd6lAQCbBAu1URq",
+    "tier1_score": 17.78,
+    "aspect_ratio": 1.78,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.208,
+    "analyzed_width": 640,
+    "analyzed_height": 360,
+    "tier2_score": 34.83
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJI6-5PrAOdkgRScuURtIwrpU\\cf47cefd4a19.jpg",
+      "size_bytes": 90661,
+      "name": "places/ChIJI6-5PrAOdkgRScuURtIwrpU/photos/AWCwydjvdgIVQOYCjorO5e__fHBxN0ABUyirmYTHhG8CturaXXHsG2qc3MEMBJsvvnuj6GF1nQixd0bMTwLBsLuL0dZUYNfLHl9SeYn4SQ_rpPspclQmMpnk8Ibvauluef5JpH5CoVrsb9-D5ht2iRCMxXFawLKguA53zX_ZkXjRYAJ-WF3T3bozviRQg3MVk0k7Mluia-8LpHvCYKZaf20yewwwPuJTh_K5uvctVIpSSpHwnYcXwxUM8Z-irAhudOfNumGkLhJq-jXTPi2AgFoN-RRljQvM9KBmt8FHz-z7vX-ZhO9wFkcmA6kdLs2qzQeQ30F18VmDXAk4CkZCC6Rcqc7e-bvu_-J2AEZh-noTSvTZoqO8u7d2p4AU3OvbmV0elgnYGTSpSJ3IMArYUbQzHIf2LnUJxUAcpfd6lAQCbBAu1URq",
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.208,
+      "analyzed_width": 640,
+      "analyzed_height": 360,
+      "tier2_score": 34.83
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJI6-5PrAOdkgRScuURtIwrpU\\673c2c4a66f3.jpg",
+      "size_bytes": 148113,
+      "name": "places/ChIJI6-5PrAOdkgRScuURtIwrpU/photos/AWCwydhosbP1mEL6p_YFYlGh63147UjccomOV7likjHv4AUa7TRg6SlDVLS_BWKn-Q3MsXVl7K2KCauieAWgQ1d2vmVIEbDaSm2yXD2Q7gVUzum7mS3XV_KJitM8xaoFd9acm6Y10S4zPcLzj8Bn1fIvvnDOQpuYdWl5vreRTceVnB8K1g1tzj9CHzxI_XI08kxjwDkXnAPi520DCR5jv7ZcJHZXr1eSpWC2DE7WQAe2Smxr4ML2jm1fyG5emmkTL3rD5m3R4NAa9CDqQpqc3uJYie1xfEwzzuqexdCYIJnaM6zpuQrORn9SvMOHcEk5drDxX6uAaP-TmTIwUb0IEWvB23duZcY3AgyKopzfzquOp1tyKMhF0lrNJOa14HsPJx7wuYmTkHy51zKHb8AZbEfm6CFT1TEfL_9Dx8aS1gTICtlLFUtR",
+      "tier1_score": 15.06,
+      "aspect_ratio": 1.51,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.252,
+      "analyzed_width": 640,
+      "analyzed_height": 425,
+      "tier2_score": 34.08
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJI6-5PrAOdkgRScuURtIwrpU\\4d82540061cf.jpg",
+      "size_bytes": 78368,
+      "name": "places/ChIJI6-5PrAOdkgRScuURtIwrpU/photos/AWCwydhzI8rM1GsvgiUlBdyaXHfCfvLT-9Uy7OXYAztLLZ4sR6sgiKPRqsIbl4xczqz3St4q9SQT_IBa8hAKF7sr8d2-2ACD3jaon_tUDYVH3n28VFHdk2inYOZJmHbOWnBUvigtVH2OSLOS23zXgjNaJqtgny0gjmDpAK6lMChf3XWv9JsiWVJYxcEdLgG6WF5lTZyTzSFqqlxLvKHp9IK-5Z2KVzG0cu6AJ2cirSMiumuaUC_RUk20ZNl-AMa9AvPfM4_TWOshLWlji-OVc5LG_2fFspjZpYu3m_dcQrQSxwBIX9jh1kMTpsb1FfjJOhWJr31VLPqcbhap0amlSEjJOY_RH5lkbLBTBxreDosQejXS21C6KVXVHZyCEoo_qQVopqnMwh2U965bM6vK71hzeW4yZYBulxS_0fhJedA-I6g7NEHX",
+      "tier1_score": 16.67,
+      "aspect_ratio": 1.67,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.081,
+      "analyzed_width": 640,
+      "analyzed_height": 384,
+      "tier2_score": 31.62
+    }
+  ],
+  "downloaded_count": 3,
+  "fetched_at": "2026-08-08T12:28:02Z"
+}

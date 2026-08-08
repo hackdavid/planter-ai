@@ -1,0 +1,41 @@
+{
+  "place_id": "ChIJP3qj74cadkgRR1u9WntBQ-I",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://www.boulangeriebonmatin.co.uk/",
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJP3qj74cadkgRR1u9WntBQ-I\\71d080cdc425.jpg",
+      "tier2_score": 37.74,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJP3qj74cadkgRR1u9WntBQ-I\\93d22a75a89d.jpg",
+      "tier2_score": 35.9,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJP3qj74cadkgRR1u9WntBQ-I\\4528454d916b.jpg",
+      "tier2_score": 34.82,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJP3qj74cadkgRR1u9WntBQ-I\\71d080cdc425.jpg",
+    "tier2_score": 37.74,
+    "tier1_score": 15.0,
+    "aspect_ratio": 1.5
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 0
+  }
+}

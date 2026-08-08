@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJIekCn-sGdkgRqbG6WbLYcLM",
+  "place_id": "ChIJIekCn-sGdkgRqbG6WbLYcLM",
+  "name": "Norbury Caf\u00e9 & Restaurant",
+  "address": "1329 London Rd, Norbury, London SW16 4AU, UK",
+  "lat": 51.4072222,
+  "lng": -0.1213889,
+  "panorama_lat": 51.40728076448745,
+  "panorama_lng": -0.1214790207188595,
+  "computed_bearing": 136.17,
+  "primary_heading": 136,
+  "validation_heading": 156,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 9.0,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:09Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJp_wEtEAGdkgRev5b74Ls4N8",
+  "place_id": "ChIJp_wEtEAGdkgRev5b74Ls4N8",
+  "name": "Cravings Cafe",
+  "address": "47 Upper Green E, Mitcham CR4 2PF, UK",
+  "lat": 51.404892999999994,
+  "lng": -0.162658,
+  "panorama_lat": 51.40484151995928,
+  "panorama_lng": -0.1627425634954513,
+  "computed_bearing": 45.7,
+  "primary_heading": 46,
+  "validation_heading": 66,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 8.2,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:07Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

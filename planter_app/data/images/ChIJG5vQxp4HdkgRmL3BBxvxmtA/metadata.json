@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJG5vQxp4HdkgRmL3BBxvxmtA",
+  "place_id": "ChIJG5vQxp4HdkgRmL3BBxvxmtA",
+  "name": "Top Coffee",
+  "address": "131 Streatham Vale, London SW16 5SP, UK",
+  "lat": 51.4145099,
+  "lng": -0.1401248,
+  "panorama_lat": 51.41461041537016,
+  "panorama_lng": -0.140147063978008,
+  "computed_bearing": 172.13,
+  "primary_heading": 172,
+  "validation_heading": 192,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 11.3,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:14Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

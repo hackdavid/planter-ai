@@ -1,0 +1,7 @@
+{
+  "pass": false,
+  "confidence": 0.99,
+  "reason": "The image only shows a close-up of a window covered with a hiring poster rather than the full exterior frontage and entrance of the venue.",
+  "model": "gemini-3.5-flash-lite",
+  "image_path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\images\\ChIJ8ZKYKfALdkgRCIKqvNsYDWU\\streetview_primary_296.jpg"
+}

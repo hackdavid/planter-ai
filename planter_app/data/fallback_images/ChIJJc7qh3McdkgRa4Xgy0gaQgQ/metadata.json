@@ -1,0 +1,41 @@
+{
+  "place_id": "ChIJJc7qh3McdkgRa4Xgy0gaQgQ",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://www.newriverstudios.com/",
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJJc7qh3McdkgRa4Xgy0gaQgQ\\946a63cf4357.jpg",
+      "tier2_score": 35.29,
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJJc7qh3McdkgRa4Xgy0gaQgQ\\0e209d77cab4.jpg",
+      "tier2_score": 31.72,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJJc7qh3McdkgRa4Xgy0gaQgQ\\4f953ec2f705.jpg",
+      "tier2_score": 29.66,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJJc7qh3McdkgRa4Xgy0gaQgQ\\946a63cf4357.jpg",
+    "tier2_score": 35.29,
+    "tier1_score": 17.78,
+    "aspect_ratio": 1.78
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 0
+  }
+}

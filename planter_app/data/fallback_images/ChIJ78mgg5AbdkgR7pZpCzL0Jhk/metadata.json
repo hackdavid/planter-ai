@@ -1,0 +1,41 @@
+{
+  "place_id": "ChIJ78mgg5AbdkgR7pZpCzL0Jhk",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://www.commongroundlondon.co.uk/",
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ78mgg5AbdkgR7pZpCzL0Jhk\\8b7bc95beb1a.jpg",
+      "tier2_score": 37.36,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ78mgg5AbdkgR7pZpCzL0Jhk\\99440b06f16a.jpg",
+      "tier2_score": 33.26,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ78mgg5AbdkgR7pZpCzL0Jhk\\e8e77827942a.jpg",
+      "tier2_score": 33.12,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ78mgg5AbdkgR7pZpCzL0Jhk\\8b7bc95beb1a.jpg",
+    "tier2_score": 37.36,
+    "tier1_score": 13.33,
+    "aspect_ratio": 1.33
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJlQnywv8LdkgRwWZibL7VXLI",
+  "place_id": "ChIJlQnywv8LdkgRwWZibL7VXLI",
+  "name": "Eleana\u2019s",
+  "address": "Chandlers House, 5 High St, Hampton Wick, Kingston upon Thames KT1 4DA, UK",
+  "lat": 51.4117361,
+  "lng": -0.31107399999999996,
+  "panorama_lat": 51.41170171302169,
+  "panorama_lng": -0.3110894554978628,
+  "computed_bearing": 15.66,
+  "primary_heading": 16,
+  "validation_heading": 36,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 4.0,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:37:01Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

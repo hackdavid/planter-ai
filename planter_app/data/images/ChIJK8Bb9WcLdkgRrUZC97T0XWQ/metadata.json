@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJK8Bb9WcLdkgRrUZC97T0XWQ",
+  "place_id": "ChIJK8Bb9WcLdkgRrUZC97T0XWQ",
+  "name": "Deer Cafe Bistro Kingston",
+  "address": "54 Coombe Rd, Kingston upon Thames KT2 7AF, UK",
+  "lat": 51.41238980000001,
+  "lng": -0.28706309999999996,
+  "panorama_lat": 51.41239014271869,
+  "panorama_lng": -0.2870629069165747,
+  "computed_bearing": 199.36,
+  "primary_heading": 199,
+  "validation_heading": 219,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 0.0,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:36:57Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

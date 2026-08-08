@@ -1,0 +1,62 @@
+{
+  "place_id": "ChIJHfNu46QLdkgRgxNawDqdjMI",
+  "status": "success",
+  "websiteUri": "http://www.cafebenedict.co.uk/",
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJHfNu46QLdkgRgxNawDqdjMI\\2dcc2f64f90c.jpg",
+    "size_bytes": 70704,
+    "name": "places/ChIJHfNu46QLdkgRgxNawDqdjMI/photos/AWCwydiEm8NCQ2boSFOJK-y8SZzKDztsqWp5lquPC1t2wMXvK0mwEBxRMw7NW5fQiDkvDAkb2vcnD55UiF_z0UZMuNyv4RH6L-vc3MHUW7Z1kKBthv707maAW2vMPd0luvELrnqmELobWh5tLVP9Xi9fgtHH0uzmSv5WjghOJAIZ5kQp0LtfsbFK18o_EO-cq8Ysr0AdsZjCn74kbN7BgqgPzKm-k4wX8csqKxy0IcB1avAL4bT7TG7VLlmo-AfWB9gMkvmMSNKrL4addn5CBZDEU4bMS6u6DMMTXNF_f6AsNeUlx0NRGTIlULLcT7XsBc5a6qcZL7VS_LeZ265Khe8ef4SL1xyA_szQt8cxG3dW1FwnHADPWxlc_JfFH9ZiEwhWDOPdM0N6IMFPWGzARtUI5lDKAulOnj2ahvwJIb8o9Vo5XCBgXlfVEniRYPWl7oBD",
+    "tier1_score": 22.07,
+    "aspect_ratio": 2.21,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.394,
+    "analyzed_width": 640,
+    "analyzed_height": 290,
+    "tier2_score": 41.12
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJHfNu46QLdkgRgxNawDqdjMI\\2dcc2f64f90c.jpg",
+      "size_bytes": 70704,
+      "name": "places/ChIJHfNu46QLdkgRgxNawDqdjMI/photos/AWCwydiEm8NCQ2boSFOJK-y8SZzKDztsqWp5lquPC1t2wMXvK0mwEBxRMw7NW5fQiDkvDAkb2vcnD55UiF_z0UZMuNyv4RH6L-vc3MHUW7Z1kKBthv707maAW2vMPd0luvELrnqmELobWh5tLVP9Xi9fgtHH0uzmSv5WjghOJAIZ5kQp0LtfsbFK18o_EO-cq8Ysr0AdsZjCn74kbN7BgqgPzKm-k4wX8csqKxy0IcB1avAL4bT7TG7VLlmo-AfWB9gMkvmMSNKrL4addn5CBZDEU4bMS6u6DMMTXNF_f6AsNeUlx0NRGTIlULLcT7XsBc5a6qcZL7VS_LeZ265Khe8ef4SL1xyA_szQt8cxG3dW1FwnHADPWxlc_JfFH9ZiEwhWDOPdM0N6IMFPWGzARtUI5lDKAulOnj2ahvwJIb8o9Vo5XCBgXlfVEniRYPWl7oBD",
+      "tier1_score": 22.07,
+      "aspect_ratio": 2.21,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.394,
+      "analyzed_width": 640,
+      "analyzed_height": 290,
+      "tier2_score": 41.12
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJHfNu46QLdkgRgxNawDqdjMI\\9e50349a6132.jpg",
+      "size_bytes": 71080,
+      "name": "places/ChIJHfNu46QLdkgRgxNawDqdjMI/photos/AWCwydhLybikJXJlM8MSPmKdLoRfr0wUoLJxt-tw5HC8ug9RXC1nNFAzWuq7OYGZngtDN_b5kJDzCiX7Xjz-lilnFLLBfXwCriwKzZOK5USScThy3MPO31R9Fnzorp4g_zfkFSDXHMpNiqQjSFJNS9zA7OXnV1wHz3bGO2ALKbu2LHSG7zqPbGGxtU50wJM3hGCYGNTiFI3BDe0apBRtpyHrGtPPTuZ8CMhJ0BYleRW44g7yGDo9JZv6Ss8Q4scspx1vTjswfc-NCOITPXcdNH-id67Vpv7MDpwvX4GQ8PUHJmMp7dvxw_cpCvCjDHfkZBipOo2ueaEIhxd7cMHvrij2NiZm-jNFu7xgsrJOE8xylTvU2n7CJcufy2Bi7BuyxlrHtUFUvizICbRBRGeSwXGrKp6AKEHd0dNTCJwMnzM1QwNvs70",
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.355,
+      "analyzed_width": 640,
+      "analyzed_height": 360,
+      "tier2_score": 37.77
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJHfNu46QLdkgRgxNawDqdjMI\\fbdfd2bfd07e.jpg",
+      "size_bytes": 63362,
+      "name": "places/ChIJHfNu46QLdkgRgxNawDqdjMI/photos/AWCwydiEV1v-qoSEpZME7As0po46z13i1EclPQtWR4XsAcCuk_djLDyChYxByd1t69iPbiuog9aeF_3LURXlDLL330LFFT0DEyYA-m1W9fse6550dswrm_wHoYa_rhSZj_R6By_IFB7-cscGdCkYTiCzAWTmYslS128M28aLEA53ZHFTLcJPouz-JHcZwv7lGPh2PaHlnz8NuSCzhnX-CNax3micZr0ohWO5NiCeKJ4HRwpuuZEfDKREEozyF5fRfb3p58Z3OFLJaeZJE0ttVmkibdH8gr7e9f_O-2LDcnEvdpKNPoFGGZGT3UGZjwZUs_HNkjcyy9upk9LzHGo3Fb0qBQE4ormmvj68I6Vno2aFme6cAeszAqS8QNVgF3LfylpMsG9jcjxCRHBoynMpH_nlilkQoQ-sZI7nP4eNxw1MUgvp4ZgXhuuN_f4acjyVhiOE",
+      "tier1_score": 15.05,
+      "aspect_ratio": 1.5,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.113,
+      "analyzed_width": 640,
+      "analyzed_height": 425,
+      "tier2_score": 31.29
+    }
+  ],
+  "downloaded_count": 3,
+  "fetched_at": "2026-08-08T13:03:11Z"
+}

@@ -1,0 +1,111 @@
+{
+  "place_id": "ChIJlQnywv8LdkgRwWZibL7VXLI",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://eleanasbistro.co.uk/",
+  "candidate_count": 13,
+  "candidates": [
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJlQnywv8LdkgRwWZibL7VXLI\\ff1e36109279.jpg",
+      "tier2_score": 36.59,
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJlQnywv8LdkgRwWZibL7VXLI\\3d7197976d41.jpg",
+      "tier2_score": 34.12,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJlQnywv8LdkgRwWZibL7VXLI\\96b5aa74e3f2.jpg",
+      "tier2_score": 33.5,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "https://eleanasbistro.co.uk/wp-content/uploads/2022/09/image0-scaled-600x400.jpeg",
+      "tier2_score": 31.72,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://eleanasbistro.co.uk/wp-content/uploads/2022/09/image3-scaled-600x400.jpeg",
+      "tier2_score": 31.44,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://eleanasbistro.co.uk/wp-content/uploads/2022/09/image2-scaled-600x400.jpeg",
+      "tier2_score": 31.08,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://eleanasbistro.co.uk/wp-content/uploads/2022/09/image1-scaled-600x400.jpeg",
+      "tier2_score": 31.06,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://eleanasbistro.co.uk/wp-content/uploads/2022/09/0D02D1D7-03BB-4E90-BAB0-D84518AA6216-scaled-600x400.jpeg",
+      "tier2_score": 30.78,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://eleanasbistro.co.uk/wp-content/uploads/2022/09/Eleana_s-Bistro-69-scaled-600x400.jpeg",
+      "tier2_score": 30.6,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://eleanasbistro.co.uk/wp-content/uploads/2022/09/Eleana_s-Bistro-71-scaled-600x400.jpeg",
+      "tier2_score": 30.54,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://eleanasbistro.co.uk/wp-content/uploads/2022/09/Eleana_s-Bistro-68-scaled-600x400.jpeg",
+      "tier2_score": 30.3,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://eleanasbistro.co.uk/wp-content/uploads/2022/09/Eleana_s-Bistro-scaled-600x400.jpeg",
+      "tier2_score": 30.02,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://eleanasbistro.co.uk/wp-content/uploads/2022/09/Eleana_s-Bistro-74-scaled-600x400.jpeg",
+      "tier2_score": 29.84,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    }
+  ],
+  "best_candidate": {
+    "source": "business_photos",
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJlQnywv8LdkgRwWZibL7VXLI\\ff1e36109279.jpg",
+    "tier2_score": 36.59,
+    "tier1_score": 17.78,
+    "aspect_ratio": 1.78
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 10
+  }
+}

@@ -1,0 +1,486 @@
+[
+  {
+    "place_id": "ChIJK8Bb9WcLdkgRrUZC97T0XWQ",
+    "name": "Deer Cafe Bistro Kingston",
+    "address": "54 Coombe Rd, Kingston upon Thames KT2 7AF, UK",
+    "websiteUri": "http://www.deercafekingston.com/",
+    "candidates": [],
+    "candidate_count": 0
+  },
+  {
+    "place_id": "ChIJA3NOoqsHdkgReHOikJIlCXg",
+    "name": "Chaachi's",
+    "address": "1583 London Rd, Norbury, London SW16 4AA, UK",
+    "websiteUri": "https://www.instagram.com/chaachis.norbury?igsh=MW15ajZraThsa2RrNQ==",
+    "candidates": [],
+    "candidate_count": 0
+  },
+  {
+    "place_id": "ChIJAdrq478LdkgRbIQdZ-jtDAs",
+    "name": "Fortunella Caf\u00e9",
+    "address": "8 Apple Market, Kingston upon Thames KT1 1JE, UK",
+    "websiteUri": "http://www.fortunella.co.uk/",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJAdrq478LdkgRbIQdZ-jtDAs\\c1965e374f90.jpg",
+        "tier2_score": 35.8,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJAdrq478LdkgRbIQdZ-jtDAs\\d9f53af168e7.jpg",
+        "tier2_score": 31.65,
+        "tier1_score": 14.99
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJAdrq478LdkgRbIQdZ-jtDAs\\a0be113dc86f.jpg",
+        "tier2_score": 31.24,
+        "tier1_score": 13.34
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJlQnywv8LdkgRwWZibL7VXLI",
+    "name": "Eleana\u2019s",
+    "address": "Chandlers House, 5 High St, Hampton Wick, Kingston upon Thames KT1 4DA, UK",
+    "websiteUri": "http://eleanasbistro.co.uk/",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJlQnywv8LdkgRwWZibL7VXLI\\ff1e36109279.jpg",
+        "tier2_score": 36.59,
+        "tier1_score": 17.78
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJlQnywv8LdkgRwWZibL7VXLI\\3d7197976d41.jpg",
+        "tier2_score": 34.12,
+        "tier1_score": 15.0
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJlQnywv8LdkgRwWZibL7VXLI\\96b5aa74e3f2.jpg",
+        "tier2_score": 33.5,
+        "tier1_score": 13.33
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJJ3AGi7YLdkgRYrRCCnTmMlk",
+    "name": "The French Tarte",
+    "address": "83 Maple Rd, Surbiton KT6 4AW, UK",
+    "websiteUri": "https://www.thefrenchtarte.co.uk/",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJJ3AGi7YLdkgRYrRCCnTmMlk\\d893e231fce3.jpg",
+        "tier2_score": 35.18,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJJ3AGi7YLdkgRYrRCCnTmMlk\\f6198e92e9ec.jpg",
+        "tier2_score": 33.5,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJJ3AGi7YLdkgRYrRCCnTmMlk\\28887d0ba549.jpg",
+        "tier2_score": 32.18,
+        "tier1_score": 13.33
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJu46vWr8LdkgR1bOGMBoMl50",
+    "name": "Surbeanton",
+    "address": "48 Victoria Rd, Surbiton KT6 4JL, UK",
+    "websiteUri": "http://www.surbeanton.com/",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJu46vWr8LdkgR1bOGMBoMl50\\85733fde51e7.jpg",
+        "tier2_score": 38.83,
+        "tier1_score": 17.78
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJu46vWr8LdkgR1bOGMBoMl50\\ed3451868cae.jpg",
+        "tier2_score": 37.05,
+        "tier1_score": 17.78
+      }
+    ],
+    "candidate_count": 2
+  },
+  {
+    "place_id": "ChIJ8ZKYKfALdkgRCIKqvNsYDWU",
+    "name": "GAIL's Bakery Kingston-upon-Thames",
+    "address": "3-5 Church St, Kingston upon Thames KT1 1RW, UK",
+    "websiteUri": "https://gails.com/pages/kingston",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ8ZKYKfALdkgRCIKqvNsYDWU\\1f04a3ad0fd5.jpg",
+        "tier2_score": 34.54,
+        "tier1_score": 15.67
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ8ZKYKfALdkgRCIKqvNsYDWU\\d8f908bbbde4.jpg",
+        "tier2_score": 32.82,
+        "tier1_score": 14.9
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ8ZKYKfALdkgRCIKqvNsYDWU\\3ea235836cf9.jpg",
+        "tier2_score": 32.68,
+        "tier1_score": 13.33
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJA5PfGEALdkgRmSwijMUi3_8",
+    "name": "Lion Gate Caf\u00e9",
+    "address": "Hampton Ct Rd, Molesey, East Molesey KT8 9BZ, UK",
+    "websiteUri": "https://www.liongatecafe.co.uk/",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJA5PfGEALdkgRmSwijMUi3_8\\28c670b72f26.jpg",
+        "tier2_score": 36.12,
+        "tier1_score": 14.97
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJA5PfGEALdkgRmSwijMUi3_8\\419a73a83691.jpg",
+        "tier2_score": 33.93,
+        "tier1_score": 13.82
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJA5PfGEALdkgRmSwijMUi3_8\\1ef5efb409b4.jpg",
+        "tier2_score": 33.34,
+        "tier1_score": 14.37
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJR6kvFRELdkgR7deUVt8nLws",
+    "name": "Mada Deli",
+    "address": "11-13 Bridge Rd, Molesey, East Molesey KT8 9EU, UK",
+    "websiteUri": "http://madadeli.co.uk/",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJR6kvFRELdkgR7deUVt8nLws\\3c8299769ab9.jpg",
+        "tier2_score": 35.72,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJR6kvFRELdkgR7deUVt8nLws\\533a2d9e2cb2.jpg",
+        "tier2_score": 33.88,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJR6kvFRELdkgR7deUVt8nLws\\c70f565a7153.jpg",
+        "tier2_score": 32.47,
+        "tier1_score": 13.32
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJp_wEtEAGdkgRev5b74Ls4N8",
+    "name": "Cravings Cafe",
+    "address": "47 Upper Green E, Mitcham CR4 2PF, UK",
+    "websiteUri": null,
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJp_wEtEAGdkgRev5b74Ls4N8\\3ce8689fafe5.jpg",
+        "tier2_score": 34.58,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJp_wEtEAGdkgRev5b74Ls4N8\\29c1e1954aee.jpg",
+        "tier2_score": 32.74,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJp_wEtEAGdkgRev5b74Ls4N8\\783b4668325c.jpg",
+        "tier2_score": 30.64,
+        "tier1_score": 13.33
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJc-sXeikHdkgRCHLSheKEISE",
+    "name": "Chaiiwala",
+    "address": "London Road 1424, Norbury, London SW16 4EP, UK",
+    "websiteUri": "https://www.chaiiwala.co.uk/",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJc-sXeikHdkgRCHLSheKEISE\\d081403337e2.jpg",
+        "tier2_score": 39.77,
+        "tier1_score": 17.79
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJc-sXeikHdkgRCHLSheKEISE\\7263d7657918.jpg",
+        "tier2_score": 33.88,
+        "tier1_score": 13.33
+      }
+    ],
+    "candidate_count": 2
+  },
+  {
+    "place_id": "ChIJIekCn-sGdkgRqbG6WbLYcLM",
+    "name": "Norbury Caf\u00e9 & Restaurant",
+    "address": "1329 London Rd, Norbury, London SW16 4AU, UK",
+    "websiteUri": null,
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJIekCn-sGdkgRqbG6WbLYcLM\\eb6f250dd9e7.jpg",
+        "tier2_score": 36.76,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJIekCn-sGdkgRqbG6WbLYcLM\\370b979ef437.jpg",
+        "tier2_score": 36.15,
+        "tier1_score": 17.78
+      }
+    ],
+    "candidate_count": 2
+  },
+  {
+    "place_id": "ChIJYceW_rMHdkgRLQTudg_LoW0",
+    "name": "Pop In Cafe",
+    "address": "257 London Rd, Mitcham CR4 3NH, UK",
+    "websiteUri": "http://pop-in-cafe-mitcham.edan.io/",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJYceW_rMHdkgRLQTudg_LoW0\\6738378d8095.jpg",
+        "tier2_score": 38.89,
+        "tier1_score": 22.22
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJYceW_rMHdkgRLQTudg_LoW0\\c555a0aa063a.jpg",
+        "tier2_score": 35.14,
+        "tier1_score": 15.0
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJYceW_rMHdkgRLQTudg_LoW0\\3e05253f9a05.jpg",
+        "tier2_score": 33.64,
+        "tier1_score": 15.0
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJCddVuqYIdkgRzPkoyYCp7W4",
+    "name": "CAFE SW19",
+    "address": "234 Merton Rd, London SW19 1EQ, UK",
+    "websiteUri": null,
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJCddVuqYIdkgRzPkoyYCp7W4\\a5c7e8c0a89b.jpg",
+        "tier2_score": 33.9,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJCddVuqYIdkgRzPkoyYCp7W4\\f7b047cbf0ee.jpg",
+        "tier2_score": 33.72,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJCddVuqYIdkgRzPkoyYCp7W4\\e989e215264c.jpg",
+        "tier2_score": 32.5,
+        "tier1_score": 13.33
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJK9OuDRELdkgRcJoSR01KLgc",
+    "name": "Canela Cafe",
+    "address": "5 Creek Rd, Molesey, East Molesey KT8 9BE, UK",
+    "websiteUri": "https://canelacafe.co.uk/",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJK9OuDRELdkgRcJoSR01KLgc\\e6443f831647.jpg",
+        "tier2_score": 35.62,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJK9OuDRELdkgRcJoSR01KLgc\\bf5b21a3f91d.jpg",
+        "tier2_score": 32.96,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJK9OuDRELdkgRcJoSR01KLgc\\056995ee92a4.jpg",
+        "tier2_score": 32.3,
+        "tier1_score": 13.33
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJO7kv3C8JdkgRBkak0OPYaOA",
+    "name": "601pm",
+    "address": "38 High St, New Malden KT3 4HE, UK",
+    "websiteUri": "https://www.instagram.com/cafe601pm",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJO7kv3C8JdkgRBkak0OPYaOA\\e052de7b22bd.jpg",
+        "tier2_score": 33.72,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJO7kv3C8JdkgRBkak0OPYaOA\\4b8910ab00ec.jpg",
+        "tier2_score": 32.77,
+        "tier1_score": 17.78
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJO7kv3C8JdkgRBkak0OPYaOA\\003cc74b2a7d.jpg",
+        "tier2_score": 31.84,
+        "tier1_score": 13.33
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJG5vQxp4HdkgRmL3BBxvxmtA",
+    "name": "Top Coffee",
+    "address": "131 Streatham Vale, London SW16 5SP, UK",
+    "websiteUri": null,
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJG5vQxp4HdkgRmL3BBxvxmtA\\a56e5689ea92.jpg",
+        "tier2_score": 36.77,
+        "tier1_score": 15.01
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJG5vQxp4HdkgRmL3BBxvxmtA\\235b2fc00d9b.jpg",
+        "tier2_score": 33.61,
+        "tier1_score": 15.01
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJG5vQxp4HdkgRmL3BBxvxmtA\\9d97a1be3005.jpg",
+        "tier2_score": 33.5,
+        "tier1_score": 13.33
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJ7Tbv694JdkgRRbaPukHaI5c",
+    "name": "Cafe Hanok",
+    "address": "203 Kingston Rd, New Malden KT3 3SS, UK",
+    "websiteUri": "https://hanokinlondon.co.uk/",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ7Tbv694JdkgRRbaPukHaI5c\\ca47df5d132b.jpg",
+        "tier2_score": 35.35,
+        "tier1_score": 19.02
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ7Tbv694JdkgRRbaPukHaI5c\\0fd0ff83214a.jpg",
+        "tier2_score": 34.62,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ7Tbv694JdkgRRbaPukHaI5c\\b69d073227ec.jpg",
+        "tier2_score": 34.21,
+        "tier1_score": 16.11
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJcYuV5IIIdkgRCcMUaKuL5-s",
+    "name": "Sunshine Cafe (MORDEN)",
+    "address": "54 Central Rd, Morden SM4 5RP, UK",
+    "websiteUri": "http://sun-shine-cafe.edan.io/",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJcYuV5IIIdkgRCcMUaKuL5-s\\bbeaec6ce114.jpg",
+        "tier2_score": 35.85,
+        "tier1_score": 17.78
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJcYuV5IIIdkgRCcMUaKuL5-s\\823960e11ebc.jpg",
+        "tier2_score": 35.75,
+        "tier1_score": 17.78
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJcYuV5IIIdkgRCcMUaKuL5-s\\12548fac65f7.jpg",
+        "tier2_score": 34.29,
+        "tier1_score": 14.98
+      }
+    ],
+    "candidate_count": 3
+  },
+  {
+    "place_id": "ChIJBW5yoEAGdkgRhjDKAniohzI",
+    "name": "Tag Elezz Cafe Mitcham",
+    "address": "2A Upper Green E, Mitcham CR4 2PF, UK",
+    "websiteUri": "https://www.just-eat.co.uk/restaurants-tagelezzcafemitcham-mitcham/menu",
+    "candidates": [
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJBW5yoEAGdkgRhjDKAniohzI\\6a6e4ef59dd7.jpg",
+        "tier2_score": 36.09,
+        "tier1_score": 17.78
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJBW5yoEAGdkgRhjDKAniohzI\\83c29b5d3e73.jpg",
+        "tier2_score": 34.44,
+        "tier1_score": 13.33
+      },
+      {
+        "source": "business_photos",
+        "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJBW5yoEAGdkgRhjDKAniohzI\\8fc4d85e5068.jpg",
+        "tier2_score": 31.56,
+        "tier1_score": 13.33
+      }
+    ],
+    "candidate_count": 3
+  }
+]

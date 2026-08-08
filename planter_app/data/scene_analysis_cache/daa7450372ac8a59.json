@@ -1,0 +1,39 @@
+{
+  "pixels_per_meter": 120.0,
+  "reference_object": "door",
+  "reference_width_meters": 0.9,
+  "shadow_angle_deg": 45.0,
+  "shadow_softness": "soft",
+  "ground_plane_y": 451,
+  "door_bbox": {
+    "x": 162,
+    "y": 262,
+    "width": 56,
+    "height": 158
+  },
+  "placement_candidates": [
+    {
+      "x": 112,
+      "y": 454,
+      "label": "left",
+      "score": 0.9
+    },
+    {
+      "x": 62,
+      "y": 457,
+      "label": "far_left",
+      "score": 0.8
+    },
+    {
+      "x": 237,
+      "y": 451,
+      "label": "right",
+      "score": 0.7
+    }
+  ],
+  "lighting_direction": "left_to_right",
+  "image_height": 480,
+  "image_width": 640,
+  "model": "gemini-3.5-flash-lite",
+  "image_path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\images\\ChIJp_wEtEAGdkgRev5b74Ls4N8\\streetview_primary_46.jpg"
+}

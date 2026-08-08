@@ -1,0 +1,104 @@
+{
+  "place_id": "ChIJwdr7OjQadkgRg6PxC0ODJag",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "http://www.queenswoodcafe.org/",
+  "candidate_count": 12,
+  "candidates": [
+    {
+      "source": "website",
+      "path": "https://static.wixstatic.com/media/837b64_ba7dd6afae2948d8927a677e0af0fb33~mv2.jpg/v1/fit/w_1200,h_460,q_90,enc_avif,quality_auto/837b64_ba7dd6afae2948d8927a677e0af0fb33~mv2.jpg",
+      "tier2_score": 40.54,
+      "tier1_score": 26.1,
+      "aspect_ratio": 2.61
+    },
+    {
+      "source": "website",
+      "path": "https://static.wixstatic.com/media/837b64_08e7bbc4ea7943bd8abf1baa107926d9~mv2.jpeg/v1/fill/w_646,h_416,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/837b64_08e7bbc4ea7943bd8abf1baa107926d9~mv2.jpeg",
+      "tier2_score": 34.98,
+      "tier1_score": 15.5,
+      "aspect_ratio": 1.55
+    },
+    {
+      "source": "website",
+      "path": "https://static.wixstatic.com/media/837b64_32b5121784b346dab8375e93044deda0~mv2.jpg/v1/fill/w_40,h_60,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/837b64_32b5121784b346dab8375e93044deda0~mv2.jpg",
+      "tier2_score": 34.96,
+      "tier1_score": 24.5,
+      "aspect_ratio": 2.45
+    },
+    {
+      "source": "website",
+      "path": "https://static.wixstatic.com/media/837b64_300e84375ef74ba1976ae799167bb22a~mv2.jpg/v1/fill/w_583,h_398,q_90,enc_avif,quality_auto/837b64_300e84375ef74ba1976ae799167bb22a~mv2.jpg",
+      "tier2_score": 34.78,
+      "tier1_score": 14.6,
+      "aspect_ratio": 1.46
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJwdr7OjQadkgRg6PxC0ODJag\\b5194371e16a.jpg",
+      "tier2_score": 34.56,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "https://static.wixstatic.com/media/837b64_ea536117ab224460bf73e17a8261da64~mv2.jpg/v1/fill/w_119,h_76,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/837b64_ea536117ab224460bf73e17a8261da64~mv2.jpg",
+      "tier2_score": 34.32,
+      "tier1_score": 19.4,
+      "aspect_ratio": 1.94
+    },
+    {
+      "source": "website",
+      "path": "https://static.wixstatic.com/media/837b64_5ac849c2087d425da603e76c97ba4578~mv2.jpg/v1/fill/w_801,h_534,q_90,enc_avif,quality_auto/837b64_5ac849c2087d425da603e76c97ba4578~mv2.jpg",
+      "tier2_score": 33.64,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://static.wixstatic.com/media/837b64_e2b4cfce4de247ed895997e96dad77db~mv2.jpg/v1/fill/w_583,h_396,q_90,enc_avif,quality_auto/837b64_e2b4cfce4de247ed895997e96dad77db~mv2.jpg",
+      "tier2_score": 33.62,
+      "tier1_score": 14.7,
+      "aspect_ratio": 1.47
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJwdr7OjQadkgRg6PxC0ODJag\\6d48530cefb4.jpg",
+      "tier2_score": 32.89,
+      "tier1_score": 14.42,
+      "aspect_ratio": 1.44
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJwdr7OjQadkgRg6PxC0ODJag\\99e09a57eac8.jpg",
+      "tier2_score": 32.28,
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33
+    },
+    {
+      "source": "website",
+      "path": "https://static.wixstatic.com/media/837b64_137bfcfcc286466084a762f405bcbd60~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/837b64_137bfcfcc286466084a762f405bcbd60~mv2.jpg",
+      "tier2_score": 31.9,
+      "tier1_score": 16.3,
+      "aspect_ratio": 1.63
+    },
+    {
+      "source": "website",
+      "path": "https://static.wixstatic.com/media/837b64_d371ad2df13a4de78bf890ffd72e7bd0~mv2.jpg/v1/fill/w_600,h_450,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_3900_edited.jpg",
+      "tier2_score": 21.34,
+      "tier1_score": 13.3,
+      "aspect_ratio": 1.33
+    }
+  ],
+  "best_candidate": {
+    "source": "website",
+    "path": "https://static.wixstatic.com/media/837b64_ba7dd6afae2948d8927a677e0af0fb33~mv2.jpg/v1/fit/w_1200,h_460,q_90,enc_avif,quality_auto/837b64_ba7dd6afae2948d8927a677e0af0fb33~mv2.jpg",
+    "tier2_score": 40.54,
+    "tier1_score": 26.1,
+    "aspect_ratio": 2.61
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 9
+  }
+}

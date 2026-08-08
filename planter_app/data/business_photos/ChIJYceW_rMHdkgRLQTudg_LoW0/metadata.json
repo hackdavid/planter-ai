@@ -1,0 +1,62 @@
+{
+  "place_id": "ChIJYceW_rMHdkgRLQTudg_LoW0",
+  "status": "success",
+  "websiteUri": "http://pop-in-cafe-mitcham.edan.io/",
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJYceW_rMHdkgRLQTudg_LoW0\\6738378d8095.jpg",
+    "size_bytes": 59762,
+    "name": "places/ChIJYceW_rMHdkgRLQTudg_LoW0/photos/AWCwydhMEtFYi_f2p--x9eqHEHjJ6oIla_cImtTESJYwmJJOIgazBoZOk-E6lWttB1fA7Tw-OHyc_PZe4NYt851Vl8ztxDDbQqeRx7YfD5q_lH07CMpoZwXDWeai0mqK2ZnPOrnruCl8w04C0O3x1hI8y7j12TuNuiQcvTffaF_ieD1CiVFkfD6KifGTD_5vmjj1KyWRGQSGOlazFdH5G11_0zDscNgOso9ycKH0BEvAIyE3xtSBumy9qBpfYOOa0F5mmPVLzBXtYVD0HCMA7o1dLiImG4PtQBMOY9uS13cKuYY5o9jy0I6zjnJccNZVJNSjQjojXNETz5jqzf1I8ylOMNNMEj--hfDnc9bGzjvQRvkg87OfYPaS5p5RwxpJmGwdzVY7AvNr6CeREGxMUeWr1vpa4rd6zrGDHrDmwB5SwdU",
+    "tier1_score": 22.22,
+    "aspect_ratio": 2.22,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.278,
+    "analyzed_width": 640,
+    "analyzed_height": 288,
+    "tier2_score": 38.89
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJYceW_rMHdkgRLQTudg_LoW0\\6738378d8095.jpg",
+      "size_bytes": 59762,
+      "name": "places/ChIJYceW_rMHdkgRLQTudg_LoW0/photos/AWCwydhMEtFYi_f2p--x9eqHEHjJ6oIla_cImtTESJYwmJJOIgazBoZOk-E6lWttB1fA7Tw-OHyc_PZe4NYt851Vl8ztxDDbQqeRx7YfD5q_lH07CMpoZwXDWeai0mqK2ZnPOrnruCl8w04C0O3x1hI8y7j12TuNuiQcvTffaF_ieD1CiVFkfD6KifGTD_5vmjj1KyWRGQSGOlazFdH5G11_0zDscNgOso9ycKH0BEvAIyE3xtSBumy9qBpfYOOa0F5mmPVLzBXtYVD0HCMA7o1dLiImG4PtQBMOY9uS13cKuYY5o9jy0I6zjnJccNZVJNSjQjojXNETz5jqzf1I8ylOMNNMEj--hfDnc9bGzjvQRvkg87OfYPaS5p5RwxpJmGwdzVY7AvNr6CeREGxMUeWr1vpa4rd6zrGDHrDmwB5SwdU",
+      "tier1_score": 22.22,
+      "aspect_ratio": 2.22,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.278,
+      "analyzed_width": 640,
+      "analyzed_height": 288,
+      "tier2_score": 38.89
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJYceW_rMHdkgRLQTudg_LoW0\\c555a0aa063a.jpg",
+      "size_bytes": 87647,
+      "name": "places/ChIJYceW_rMHdkgRLQTudg_LoW0/photos/AWCwydjTcdq9sARVKYvH-K-a-jAsDfQBXJJ21w_XDcm9VsGJKy_EsEkXwKY8zC9MBwSc09iTgBcRz2ULESj6-wBrc22lPEiEH9AQBYTFP3eC9mFhQt3dmlZXEln2tbf1bAehZqSOYePbkqM72J4jOyb09BDry9nXkCjMpJtC5-bpBaz505U69B9HqaD1Tc7SCL0b8ICLhKujUROldbJuxvht1i-rnL8tOdicVk7EJ59kZNYadHQiGg54-oV-GD5z1LAT40badaYfIZEnQ7CPbq4WO984FLCGYXeAlcmLidVxWMAXRjY5lBKQuwI2msm37g6J2lbbjwvyLiWfmDDYV9zjXMqo1yOtDaCEF1VunJlnB_DLRDQ10jghKSG28Yb-nJrn3XqMvO-YbbKKmDlwRpTxzMTexsoH5BY92grnePo4cwc",
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.307,
+      "analyzed_width": 640,
+      "analyzed_height": 426,
+      "tier2_score": 35.14
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJYceW_rMHdkgRLQTudg_LoW0\\3e05253f9a05.jpg",
+      "size_bytes": 84940,
+      "name": "places/ChIJYceW_rMHdkgRLQTudg_LoW0/photos/AWCwydjcBi5UAVRU6iw4JX_iWgDQ7c2J2obovAg1TrwF95OENca3ViH2HpHEYrNSn_zZKiCKACD70P_vmi4_hLP7DooPk1jVI3yOejVkH2H2zC1wcgpRsbaCYfer1YL-85afDa5MvMp1Qnq8OU1pETgNbyoz0EGIFXQeWJbxs-xFeoTpzq9nMXCwRKUkLuKLgzKguBVzA95jTI1eNG8zq8grMgURYQbsa3zO9HJlwrYzdcGTl1Xx1VNWn753Zvilim4GAQ-B-cYZXhVKDyMPOd26fETdDdeUhLhyhKhOHmvA0d-bEAKxXm03oCjr-L2VAu6g0f3uXKCvdqbluoWWC5bjf9kCx6sY8IP-3mHkceETR0MLkKu1byy4JT_OqiWj6c5OrZoB2tbighnrmypHTzt4rfykYq2NRO_Q0e1Qlz23sy_00FU",
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.232,
+      "analyzed_width": 640,
+      "analyzed_height": 427,
+      "tier2_score": 33.64
+    }
+  ],
+  "downloaded_count": 3,
+  "fetched_at": "2026-08-08T12:05:31Z"
+}

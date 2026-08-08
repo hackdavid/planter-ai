@@ -1,0 +1,49 @@
+{
+  "place_id": "ChIJIekCn-sGdkgRqbG6WbLYcLM",
+  "status": "success",
+  "websiteUri": null,
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJIekCn-sGdkgRqbG6WbLYcLM\\eb6f250dd9e7.jpg",
+    "size_bytes": 103309,
+    "name": "places/ChIJIekCn-sGdkgRqbG6WbLYcLM/photos/AWCwydiyivgDFx2AbvxLMrVtGlYtbZ-3lp8k2l79HLGY15SLmmxsYLjVVTUOQqUNBX3kG7DA-117OlmOTCYYc1AqFTiz7dA8KjP0MwGNXOraJ91UdG5pwpHdv3Qy8jVc7cAh-kdU-2fu7pDOVBxbYVUjupOcT2UmoaCWzrTDSqXxeMpgoUY9gMSykexEuypt6NBj77DXETQ0ZDdIr_HgUM4F15fxY78fhit6fXxNpcJ2uykCvX89sEVeHF8akwXwi21G91sxI3Tb_93Cv3SlP0a4RF61Pa5EbOUqNkHm5M6C_DiB_RJGv7A6KV5MtO26DNpxpU9VXn_doDO02tT6rcgyJwmTjqEVZ9VZmrev7Fuox_n4la-iFwPBpuuGcJgYICPL8-NFQpqtwtByd0o4XJHZizXdcgHH4gaY1MdVfSIFJM4",
+    "tier1_score": 13.33,
+    "aspect_ratio": 1.33,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.438,
+    "analyzed_width": 640,
+    "analyzed_height": 480,
+    "tier2_score": 36.76
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJIekCn-sGdkgRqbG6WbLYcLM\\eb6f250dd9e7.jpg",
+      "size_bytes": 103309,
+      "name": "places/ChIJIekCn-sGdkgRqbG6WbLYcLM/photos/AWCwydiyivgDFx2AbvxLMrVtGlYtbZ-3lp8k2l79HLGY15SLmmxsYLjVVTUOQqUNBX3kG7DA-117OlmOTCYYc1AqFTiz7dA8KjP0MwGNXOraJ91UdG5pwpHdv3Qy8jVc7cAh-kdU-2fu7pDOVBxbYVUjupOcT2UmoaCWzrTDSqXxeMpgoUY9gMSykexEuypt6NBj77DXETQ0ZDdIr_HgUM4F15fxY78fhit6fXxNpcJ2uykCvX89sEVeHF8akwXwi21G91sxI3Tb_93Cv3SlP0a4RF61Pa5EbOUqNkHm5M6C_DiB_RJGv7A6KV5MtO26DNpxpU9VXn_doDO02tT6rcgyJwmTjqEVZ9VZmrev7Fuox_n4la-iFwPBpuuGcJgYICPL8-NFQpqtwtByd0o4XJHZizXdcgHH4gaY1MdVfSIFJM4",
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.438,
+      "analyzed_width": 640,
+      "analyzed_height": 480,
+      "tier2_score": 36.76
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJIekCn-sGdkgRqbG6WbLYcLM\\370b979ef437.jpg",
+      "size_bytes": 51754,
+      "name": "places/ChIJIekCn-sGdkgRqbG6WbLYcLM/photos/AWCwydi3KccLvsjMQYaH36Um7o1iY45WtigAT9hHjHjjyfV8FLl4ebAB5pFJKKN_EiSAFTTU0IluL8wBYOwwoK6LzBSvDJzOGMDdDFBa_ls6mviCSYhXbaUTwhthHs3XWWQteVDRCEIS2oAWjFO7BSB8Q5ORZYM1t-jZ2okIu1YRSGkKKYxkbiirF0_mvrlJoAalccRCSAykuUMwJBsTgLASk3FPAT7BQhMa21ki7CtlIFwkY9-2L-g1RWmU73cFB-O9VfwDI3TkAvaMMKuyW9rvfCPq2cPknT0dfK5jaWMUNmGdT0y5oS57yt4iRjRkYC5Tx6XZxaJd815j6NEr3z63DyagZyceEFzCnnzGoJp6L86Bmhgy4eRDNwbVWtgkG4pI3spqcmjl6LWDugxPy1TARUQUrjdy_GFHHsJy2pQvtossMlw",
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.274,
+      "analyzed_width": 640,
+      "analyzed_height": 360,
+      "tier2_score": 36.15
+    }
+  ],
+  "downloaded_count": 2,
+  "fetched_at": "2026-08-08T12:05:30Z"
+}

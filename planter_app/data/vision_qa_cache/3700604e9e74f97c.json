@@ -1,0 +1,7 @@
+{
+  "pass": false,
+  "confidence": 1.0,
+  "reason": "The image shows an interior storage area or bakery kitchen rather than the street-facing exterior of a venue.",
+  "model": "gemini-3.5-flash-lite",
+  "image_path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\images\\ChIJF8R_7LuFdUgR44NtgLboYyU\\streetview_primary_47.jpg"
+}

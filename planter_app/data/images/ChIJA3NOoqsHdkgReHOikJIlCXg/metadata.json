@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJA3NOoqsHdkgReHOikJIlCXg",
+  "place_id": "ChIJA3NOoqsHdkgReHOikJIlCXg",
+  "name": "Chaachi's",
+  "address": "1583 London Rd, Norbury, London SW16 4AA, UK",
+  "lat": 51.4131126,
+  "lng": -0.1245526,
+  "panorama_lat": 51.41309933850022,
+  "panorama_lng": -0.1245468370871612,
+  "computed_bearing": 344.84,
+  "primary_heading": 345,
+  "validation_heading": 5,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 1.5,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T11:36:59Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

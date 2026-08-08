@@ -1,0 +1,62 @@
+{
+  "place_id": "ChIJEQdpO1cadkgR1xu0Z3XwhgQ",
+  "status": "success",
+  "websiteUri": "http://www.bistrolaz.com/",
+  "reason": null,
+  "best_candidate": {
+    "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJEQdpO1cadkgR1xu0Z3XwhgQ\\6b574f010c4f.jpg",
+    "size_bytes": 105413,
+    "name": "places/ChIJEQdpO1cadkgR1xu0Z3XwhgQ/photos/AWCwydjnt0zYIW2xKS8ECrL_gxzaxC10ciq_ZIFtITAh4cduluk29sD46ptvk4rsCGB4S6qnN5LfDZSN26UVFvMeOeplrzKsOWRWRgT6-GJ7IzIOE2z3DtENgF8luW2VaJ-EidbJcamQ7sy3dlT_Q1KnJee0sYb2aRucVsebJiEt-kcPeCOvHrW6HGPS5KniPe7SWVQm7NKw6kgSowTXB9t9A-m7mB7x6aPYZaYCrJHh5oaooPqamc_XjqM-5lvmZDx8rdRZ-LX7eIH32J1qEuuzWNd_D7C_9hvp8bJ99_bbLNH-pCARcGZm2QdOvCAmU9fYVc7X1KkLuHnEjcx9BNFSifgBS744vglZlVN7yhA1DT3JxU-Dhxatxgk5DUVjHUf0wPoIqI1onas6MQuNEklOoL6_mL9Qlk3mXqjlkIxm89n00hm542jNy4lCaODv6_rZ",
+    "tier1_score": 13.33,
+    "aspect_ratio": 1.33,
+    "keyword_score": 0.0,
+    "color_exterior_score": 1.0,
+    "edge_vertical_score": 0.408,
+    "analyzed_width": 640,
+    "analyzed_height": 480,
+    "tier2_score": 36.16
+  },
+  "all_photos": [
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJEQdpO1cadkgR1xu0Z3XwhgQ\\6b574f010c4f.jpg",
+      "size_bytes": 105413,
+      "name": "places/ChIJEQdpO1cadkgR1xu0Z3XwhgQ/photos/AWCwydjnt0zYIW2xKS8ECrL_gxzaxC10ciq_ZIFtITAh4cduluk29sD46ptvk4rsCGB4S6qnN5LfDZSN26UVFvMeOeplrzKsOWRWRgT6-GJ7IzIOE2z3DtENgF8luW2VaJ-EidbJcamQ7sy3dlT_Q1KnJee0sYb2aRucVsebJiEt-kcPeCOvHrW6HGPS5KniPe7SWVQm7NKw6kgSowTXB9t9A-m7mB7x6aPYZaYCrJHh5oaooPqamc_XjqM-5lvmZDx8rdRZ-LX7eIH32J1qEuuzWNd_D7C_9hvp8bJ99_bbLNH-pCARcGZm2QdOvCAmU9fYVc7X1KkLuHnEjcx9BNFSifgBS744vglZlVN7yhA1DT3JxU-Dhxatxgk5DUVjHUf0wPoIqI1onas6MQuNEklOoL6_mL9Qlk3mXqjlkIxm89n00hm542jNy4lCaODv6_rZ",
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.408,
+      "analyzed_width": 640,
+      "analyzed_height": 480,
+      "tier2_score": 36.16
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJEQdpO1cadkgR1xu0Z3XwhgQ\\30bde66d9121.jpg",
+      "size_bytes": 96831,
+      "name": "places/ChIJEQdpO1cadkgR1xu0Z3XwhgQ/photos/AWCwydjOSAHrKr_ta2oaKA8FH78H8-yiVFbwfEU2Ur052jKHVKR7vndx3CCPknyb7dSdGMZTR0rHplltcKqteDp9kEmwXqE7O0q8IhGyHd9WkU0hEHzy588oj0R2UxPPqJnOYC9UTGhgLv_QAa2eOEXEh1h9oMl4MHoK_kqDLjV3KPk_kH2DxrFtOv51eyuQZZn53aMecsJ6bXbC4pFohaWeqh0wKwbbcmSwD8GIBIL9dbKpS9dkqm8V7KbQaPa3Dw8L4zoziU_1AhB0ytEavxRjU-fV_2B7KyigEXiFjGvtFjMv7Topb6RuBBI7hQ2r-V82JCAe1eHsxi3-0zmEiWKBZCTXj52Cqx_h6jZDzC3WNE6ghePddybVIKI_BY_uG4y_X4b_2nKQvxEtClnkGmuVNV96es7rk9RIK6JC2AX_H_e4z3D2HUhIz76seSRdIxZt",
+      "tier1_score": 13.62,
+      "aspect_ratio": 1.36,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.322,
+      "analyzed_width": 640,
+      "analyzed_height": 470,
+      "tier2_score": 34.61
+    },
+    {
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJEQdpO1cadkgR1xu0Z3XwhgQ\\704829475f8b.jpg",
+      "size_bytes": 112616,
+      "name": "places/ChIJEQdpO1cadkgR1xu0Z3XwhgQ/photos/AWCwydgpL02-AdBzwUeLREJPz3hfNiLyxLPqsuxk8knwLdwlrMTg3OYNvMlao_e4WIyuOJYyNM9xymV6rUnap8ycfRVVdpOcpzQ0CauesniJhYWvmbjxIVCFAnN2Z0D26CV2ldIss2hS1sukXwZ63Be9h428b9lKYsGkNa-gpkT9uij_hwuJ4QjHqM0vAKUz038OFCVgx-pmhITLlJw1Fbtc_Bqetztlc8i5O4yEDdpGgGj36vtvz-5XAno16iP0nf2ZGWoAvGkeWod2QQnOX2niX0kwbIgg-r36IND4aFC6nnLjdmSGtGYNKMXX8LuNzb1Tg7VFC-BjXuS_TzRoRHl_N7xIlnylejX2v6U-xWEugtHSKHdKOl7jlQAKHsQFKaaRMdSbALfEtJbekaTFFvlFnHxnn_HJ80PRGHxA-znpNOKd0vw6W8fxhak7Y3JrdCVi",
+      "tier1_score": 13.33,
+      "aspect_ratio": 1.33,
+      "keyword_score": 0.0,
+      "color_exterior_score": 1.0,
+      "edge_vertical_score": 0.295,
+      "analyzed_width": 640,
+      "analyzed_height": 480,
+      "tier2_score": 33.9
+    }
+  ],
+  "downloaded_count": 3,
+  "fetched_at": "2026-08-08T13:01:59Z"
+}

@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "confidence": 0.95,
+  "reason": "The image clearly shows the street-level exterior and unblocked storefront of a cafe, making it ideal for evaluating planter placement.",
+  "model": "gemini-3.5-flash-lite",
+  "image_path": "planter_app\\data\\images\\ChIJ7Tbv694JdkgRRbaPukHaI5c\\streetview_primary_32.jpg"
+}

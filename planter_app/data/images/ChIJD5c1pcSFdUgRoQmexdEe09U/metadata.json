@@ -1,0 +1,21 @@
+{
+  "venue_id": "ChIJD5c1pcSFdUgRoQmexdEe09U",
+  "place_id": "ChIJD5c1pcSFdUgRoQmexdEe09U",
+  "name": "Neeko | Coffee, Kyoto Matcha and Cakes",
+  "address": "36 Duke St, Brighton and Hove, Brighton BN1 1AG, UK",
+  "lat": 50.8228501,
+  "lng": -0.1426119,
+  "panorama_lat": 50.82285007663083,
+  "panorama_lng": -0.1426119314385815,
+  "computed_bearing": 40.36,
+  "primary_heading": 40,
+  "validation_heading": 60,
+  "pitch": 0,
+  "fov": 60,
+  "image_size": "640x480",
+  "road_proximity_meters": 0.0,
+  "source": "google_street_view_static",
+  "requested_at": "2026-08-08T17:53:36Z",
+  "primary_image_exists": true,
+  "validation_image_exists": true
+}

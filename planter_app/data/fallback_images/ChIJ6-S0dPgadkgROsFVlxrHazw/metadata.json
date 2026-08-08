@@ -1,0 +1,90 @@
+{
+  "place_id": "ChIJ6-S0dPgadkgROsFVlxrHazw",
+  "status": "success",
+  "reason": null,
+  "websiteUri": "https://www.daisygreenfood.com/",
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "source": "website",
+      "path": "https://images.squarespace-cdn.com/content/v1/5efca20cfe631d16cf605e66/d5f701f7-686b-4640-809d-2ce10084975f/Venues_+Margot_+MelisaCoppola_44.jpg",
+      "tier2_score": 36.94,
+      "tier1_score": 20.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ6-S0dPgadkgROsFVlxrHazw\\62fb41527e65.jpg",
+      "tier2_score": 36.12,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "website",
+      "path": "https://images.squarespace-cdn.com/content/v1/5efca20cfe631d16cf605e66/576f882e-2fad-4300-b229-0d2a385d4f70/phc_first_batch+18th+June-8.jpg",
+      "tier2_score": 34.94,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ6-S0dPgadkgROsFVlxrHazw\\e3b1639962b8.jpg",
+      "tier2_score": 34.92,
+      "tier1_score": 15.0,
+      "aspect_ratio": 1.5
+    },
+    {
+      "source": "business_photos",
+      "path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\business_photos\\ChIJ6-S0dPgadkgROsFVlxrHazw\\07cbbe705797.jpg",
+      "tier2_score": 34.01,
+      "tier1_score": 17.78,
+      "aspect_ratio": 1.78
+    },
+    {
+      "source": "website",
+      "path": "https://images.squarespace-cdn.com/content/v1/5efca20cfe631d16cf605e66/1607774405072-7YMJMMISR9EABPVA45X8/9B.+Jan-Powers-Farmers-Markets-1280X670+%28Via+Next+Hotels%29.png",
+      "tier2_score": 32.12,
+      "tier1_score": 19.1,
+      "aspect_ratio": 1.91
+    },
+    {
+      "source": "website",
+      "path": "https://images.squarespace-cdn.com/content/v1/5efca20cfe631d16cf605e66/ba44fd42-b967-47a0-87a0-57837ce71cb8/Beany+Green+_PH_+Melisa+Coppola-0564.jpg",
+      "tier2_score": 31.46,
+      "tier1_score": 15.9,
+      "aspect_ratio": 1.59
+    },
+    {
+      "source": "website",
+      "path": "https://images.squarespace-cdn.com/content/v1/5efca20cfe631d16cf605e66/f57fcddd-4ddd-4386-9f48-54fb983067d2/Paradise+Green_MC68.jpg",
+      "tier2_score": 31.34,
+      "tier1_score": 15.8,
+      "aspect_ratio": 1.58
+    },
+    {
+      "source": "website",
+      "path": "https://images.squarespace-cdn.com/content/v1/5efca20cfe631d16cf605e66/0a2a0864-1ac5-40be-8b14-1f618f511d79/Australian+Comission+2024-14.jpg",
+      "tier2_score": 31.28,
+      "tier1_score": 16.0,
+      "aspect_ratio": 1.6
+    },
+    {
+      "source": "website",
+      "path": "https://images.squarespace-cdn.com/content/v1/5efca20cfe631d16cf605e66/ab252caa-2d39-421c-a76e-d1edaa16fd0a/ZiggyGreen_MelisaCoppola7.jpg",
+      "tier2_score": 30.4,
+      "tier1_score": 16.2,
+      "aspect_ratio": 1.62
+    }
+  ],
+  "best_candidate": {
+    "source": "website",
+    "path": "https://images.squarespace-cdn.com/content/v1/5efca20cfe631d16cf605e66/d5f701f7-686b-4640-809d-2ce10084975f/Venues_+Margot_+MelisaCoppola_44.jpg",
+    "tier2_score": 36.94,
+    "tier1_score": 20.0,
+    "aspect_ratio": 1.5
+  },
+  "sources": {
+    "business_photos_count": 3,
+    "website_count": 7
+  }
+}

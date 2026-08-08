@@ -1,0 +1,7 @@
+{
+  "pass": false,
+  "confidence": 1.0,
+  "reason": "The image shows an interior view looking out through a shop window rather than the exterior street-facing frontage.",
+  "model": "gemini-3.5-flash-lite",
+  "image_path": "C:\\Users\\DaudDewan\\OneDrive - SymphonyAI\\Documents\\Learning\\interview\\planter\\planter_app\\data\\images\\ChIJD5c1pcSFdUgRoQmexdEe09U\\streetview_primary_40.jpg"
+}
